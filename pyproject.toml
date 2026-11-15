@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sonar-emotion-recommender"
+version = "0.1.0"
+description = "Reproducible reference implementation of SONAR paper methods"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.23"]
+
+[project.optional-dependencies]
+meld-study = ["h5py==3.12.1", "scikit-learn==1.5.2"]
+recommendation-study = ["scipy>=1.10"]
+figures = ["matplotlib>=3.7"]
+
+[project.scripts]
+sonar = "sonar.cli:main"
+
+[tool.setuptools]
+packages = ["sonar"]

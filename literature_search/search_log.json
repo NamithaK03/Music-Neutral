@@ -1,0 +1,140 @@
+[
+  {
+    "database": "openalex",
+    "query_index": 1,
+    "url": "https://api.openalex.org/works",
+    "params": {
+      "search": "music AND (recommendation OR recommender) AND (emotion OR mood) AND (uncertainty OR confidence OR abstention OR probabilistic)",
+      "filter": "to_publication_date:2026-11-14",
+      "per-page": 200,
+      "cursor": "*"
+    },
+    "timestamp_utc": "2026-11-14T17:09:52.034814+00:00",
+    "http_status": 200,
+    "raw_file": "openalex_q1_0.json",
+    "total": 130998,
+    "retrieved": 200,
+    "cap_reached": false
+  },
+  {
+    "database": "openalex",
+    "query_index": 1,
+    "url": "https://api.openalex.org/works",
+    "params": {
+      "search": "music AND (recommendation OR recommender) AND (emotion OR mood) AND (uncertainty OR confidence OR abstention OR probabilistic)",
+      "filter": "to_publication_date:2026-11-14",
+      "per-page": 200,
+      "cursor": "IlsyNi44OTA3NDEsIDE0ODMyMjg4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMjc1MjgxNTg5NiddIg=="
+    },
+    "timestamp_utc": "2026-11-14T17:09:58.234934+00:00",
+    "http_status": 401,
+    "raw_file": "openalex_q1_200.json",
+    "error": "401 Client Error: Unauthorized for url: https://api.openalex.org/works?search=music+AND+%28recommendation+OR+recommender%29+AND+%28emotion+OR+mood%29+AND+%28uncertainty+OR+confidence+OR+abstention+OR+probabilistic%29&filter=to_publication_date%3A2026-11-14&per-page=200&cursor=IlsyNi44OTA3NDEsIDE0ODMyMjg4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMjc1MjgxNTg5NiddIg%3D%3D"
+  },
+  {
+    "database": "openalex",
+    "query_index": 2,
+    "url": "https://api.openalex.org/works",
+    "params": {
+      "search": "music AND (recommendation OR recommender) AND (abstention OR \"selective prediction\")",
+      "filter": "to_publication_date:2026-11-14",
+      "per-page": 200,
+      "cursor": "*"
+    },
+    "timestamp_utc": "2026-11-14T17:09:58.900161+00:00",
+    "http_status": 200,
+    "raw_file": "openalex_q2_0.json",
+    "total": 2244,
+    "retrieved": 200,
+    "cap_reached": false
+  },
+  {
+    "database": "openalex",
+    "query_index": 2,
+    "url": "https://api.openalex.org/works",
+    "params": {
+      "search": "music AND (recommendation OR recommender) AND (abstention OR \"selective prediction\")",
+      "filter": "to_publication_date:2026-11-14",
+      "per-page": 200,
+      "cursor": "IlsyLjMyMDY5MiwgMTQ4MzIyODgwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1cyNjEzOTQ5NTE2J10i"
+    },
+    "timestamp_utc": "2026-11-14T17:10:04.517847+00:00",
+    "http_status": 401,
+    "raw_file": "openalex_q2_200.json",
+    "error": "401 Client Error: Unauthorized for url: https://api.openalex.org/works?search=music+AND+%28recommendation+OR+recommender%29+AND+%28abstention+OR+%22selective+prediction%22%29&filter=to_publication_date%3A2026-11-14&per-page=200&cursor=IlsyLjMyMDY5MiwgMTQ4MzIyODgwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1cyNjEzOTQ5NTE2J10i"
+  },
+  {
+    "database": "openalex",
+    "query_index": 3,
+    "url": "https://api.openalex.org/works",
+    "params": {
+      "search": "music AND emotion AND (\"probability distribution\" OR \"uncertainty estimation\")",
+      "filter": "to_publication_date:2026-11-14",
+      "per-page": 200,
+      "cursor": "*"
+    },
+    "timestamp_utc": "2026-11-14T17:10:05.433409+00:00",
+    "http_status": 200,
+    "raw_file": "openalex_q3_0.json",
+    "total": 5547,
+    "retrieved": 200,
+    "cap_reached": false
+  },
+  {
+    "database": "openalex",
+    "query_index": 3,
+    "url": "https://api.openalex.org/works",
+    "params": {
+      "search": "music AND emotion AND (\"probability distribution\" OR \"uncertainty estimation\")",
+      "filter": "to_publication_date:2026-11-14",
+      "per-page": 200,
+      "cursor": "IlsxMi4zMTkxNjEsIDE1ODI5MzQ0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMzAwNjk1MTc5NCddIg=="
+    },
+    "timestamp_utc": "2026-11-14T17:10:10.584179+00:00",
+    "http_status": 401,
+    "raw_file": "openalex_q3_200.json",
+    "error": "401 Client Error: Unauthorized for url: https://api.openalex.org/works?search=music+AND+emotion+AND+%28%22probability+distribution%22+OR+%22uncertainty+estimation%22%29&filter=to_publication_date%3A2026-11-14&per-page=200&cursor=IlsxMi4zMTkxNjEsIDE1ODI5MzQ0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMzAwNjk1MTc5NCddIg%3D%3D"
+  },
+  {
+    "database": "semantic_scholar",
+    "query_index": 1,
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search/bulk",
+    "params": {
+      "query": "music + (recommendation | recommender) + (emotion | mood) + (uncertainty | confidence | abstention | probabilistic)",
+      "fields": "title,abstract,year,externalIds,url",
+      "publicationDateOrYear": ":2026-11-14"
+    },
+    "timestamp_utc": "2026-11-14T17:10:11.235123+00:00",
+    "http_status": 429,
+    "raw_file": "semantic_scholar_q1_0.json",
+    "error": "429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=music+%2B+%28recommendation+%7C+recommender%29+%2B+%28emotion+%7C+mood%29+%2B+%28uncertainty+%7C+confidence+%7C+abstention+%7C+probabilistic%29&fields=title%2Cabstract%2Cyear%2CexternalIds%2Curl&publicationDateOrYear=%3A2026-11-14"
+  },
+  {
+    "database": "semantic_scholar",
+    "query_index": 2,
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search/bulk",
+    "params": {
+      "query": "music + (recommendation | recommender) + (abstention | \"selective prediction\")",
+      "fields": "title,abstract,year,externalIds,url",
+      "publicationDateOrYear": ":2026-11-14"
+    },
+    "timestamp_utc": "2026-11-14T17:10:12.270246+00:00",
+    "http_status": 429,
+    "raw_file": "semantic_scholar_q2_0.json",
+    "error": "429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=music+%2B+%28recommendation+%7C+recommender%29+%2B+%28abstention+%7C+%22selective+prediction%22%29&fields=title%2Cabstract%2Cyear%2CexternalIds%2Curl&publicationDateOrYear=%3A2026-11-14"
+  },
+  {
+    "database": "semantic_scholar",
+    "query_index": 3,
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search/bulk",
+    "params": {
+      "query": "music + emotion + (\"probability distribution\" | \"uncertainty estimation\")",
+      "fields": "title,abstract,year,externalIds,url",
+      "publicationDateOrYear": ":2026-11-14"
+    },
+    "timestamp_utc": "2026-11-14T17:10:13.649468+00:00",
+    "http_status": 429,
+    "raw_file": "semantic_scholar_q3_0.json",
+    "error": "429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=music+%2B+emotion+%2B+%28%22probability+distribution%22+%7C+%22uncertainty+estimation%22%29&fields=title%2Cabstract%2Cyear%2CexternalIds%2Curl&publicationDateOrYear=%3A2026-11-14"
+  }
+]

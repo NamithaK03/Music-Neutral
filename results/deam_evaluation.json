@@ -1,0 +1,46 @@
+{
+  "cross_validation": {
+    "folds": 5,
+    "method": "shuffled song-disjoint K-fold",
+    "preprocessing": "feature and target scaling fit within each training fold",
+    "ridge_alpha": 1.0,
+    "seed": 42
+  },
+  "dataset": "DEAM",
+  "evidence_type": "measured_on_public_deam_annotations_and_features",
+  "feature_columns": 260,
+  "metrics": {
+    "ridge": {
+      "arousal": {
+        "ccc": 0.6539705090663911,
+        "mae": 0.7689138236489285,
+        "rmse": 1.039847526068702
+      },
+      "valence": {
+        "ccc": 0.6072710280354571,
+        "mae": 0.7567447443643132,
+        "rmse": 0.993759580087463
+      }
+    },
+    "training_mean_baseline": {
+      "arousal": {
+        "ccc": -0.002529801061398729,
+        "mae": 1.0764367323285724,
+        "rmse": 1.2836544954307114
+      },
+      "valence": {
+        "ccc": -0.004322980515744832,
+        "mae": 0.9705732866323473,
+        "rmse": 1.1767664797113844
+      }
+    }
+  },
+  "source": "https://cvml.unige.ch/databases/DEAM/",
+  "targets": "song-level mean valence and arousal annotations",
+  "track_feature_aggregation": "mean_and_standard_deviation_over_frames",
+  "track_id_range": [
+    2,
+    2058
+  ],
+  "tracks": 1802
+}

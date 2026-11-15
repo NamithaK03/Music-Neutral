@@ -1,0 +1,1081 @@
+noise,preference_sd,fusion,left,right,metric,mean,ci95,valid_seeds,positive,negative,zero
+low,0.0,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,0.0005388963776593481,"[-0.002080952126594727, 0.0033527975926673655]",10,5,5,0
+low,0.0,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",skip_rate,-0.00010000000000000564,"[-0.004500000000000009, 0.0039000000000000033]",10,6,4,0
+low,0.0,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",expected_completion,0.0005764064410084702,"[-0.0013843843851934878, 0.0027403066966014923]",10,5,5,0
+low,0.0,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",fallback_rate,-0.06720000000000001,"[-0.07210000000000001, -0.0629]",10,0,10,0
+low,0.0,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.06720000000000001,"[0.0629, 0.07210000000000001]",10,10,0,0
+low,0.0,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,,,0,,,
+low,0.0,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,0.024966499731101786,"[0.022728947248636753, 0.02724424332073539]",10,10,0,0
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",skip_rate,-0.015599999999999998,"[-0.0193, -0.012]",10,0,10,0
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",expected_completion,0.017923335271872443,"[0.016367276174153934, 0.019466950897461397]",10,10,0,0
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",fallback_rate,-0.06720000000000001,"[-0.07210000000000001, -0.0629]",10,0,10,0
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,,,0,,,
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",coverage,,,0,,,
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,,,0,,,
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,,,0,,,
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",ndcg_at_10,0.02442760335344244,"[0.022606943320219786, 0.026492697312171812]",10,10,0,0
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",skip_rate,-0.015499999999999991,"[-0.01839999999999999, -0.012999999999999994]",10,0,10,0
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",expected_completion,0.017346928830863972,"[0.015995963046165167, 0.01885637644508035]",10,10,0,0
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",abstention_rate,-0.06720000000000001,"[-0.07210000000000001, -0.0629]",10,0,10,0
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",emotion_accuracy,,,0,,,
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",coverage,,,0,,,
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",covered_accuracy,,,0,,,
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",risk_coverage_area,,,0,,,
+low,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",ndcg_at_10,0.027436463712327684,"[0.0016943024521788787, 0.05280453551617344]",10,8,2,0
+low,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",skip_rate,-0.017700000000000014,"[-0.03090250000000002, -0.0035000000000000196]",10,2,7,1
+low,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",expected_completion,0.013933714262414932,"[-0.0014956170776971825, 0.027287447248644764]",10,8,2,0
+low,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",fallback_rate,-0.06720000000000001,"[-0.07210000000000001, -0.0629]",10,0,10,0
+low,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",abstention_rate,0.06720000000000001,"[0.0629, 0.07210000000000001]",10,10,0,0
+low,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",emotion_accuracy,,,0,,,
+low,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",ndcg_at_10,-0.01735111002438202,"[-0.06605714799857931, 0.03754052368886357]",10,4,6,0
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",skip_rate,-0.006300000000000005,"[-0.042499999999999996, 0.026599999999999995]",10,4,5,1
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",expected_completion,-0.001028418636863243,"[-0.031273645316227394, 0.03166840612118431]",10,4,6,0
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",fallback_rate,-0.06720000000000001,"[-0.07210000000000001, -0.0629]",10,0,10,0
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",emotion_accuracy,,,0,,,
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",coverage,,,0,,,
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",covered_accuracy,,,0,,,
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",risk_coverage_area,,,0,,,
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",ndcg_at_10,-0.044787573736709704,"[-0.09360339495882979, 0.012708819150867667]",10,3,7,0
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",skip_rate,0.01140000000000001,"[-0.020202499999999988, 0.039002499999999975]",10,7,3,0
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",expected_completion,-0.014962132899278174,"[-0.044311950932045076, 0.019002722049397455]",10,3,7,0
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",abstention_rate,-0.06720000000000001,"[-0.07210000000000001, -0.0629]",10,0,10,0
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",emotion_accuracy,,,0,,,
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",coverage,,,0,,,
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",covered_accuracy,,,0,,,
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",risk_coverage_area,,,0,,,
+low,0.0,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",ndcg_at_10,-0.16457170272808952,"[-0.2181355494463059, -0.11907943464315492]",10,0,10,0
+low,0.0,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",skip_rate,0.0814,"[0.05719749999999999, 0.11099999999999999]",10,10,0,0
+low,0.0,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",expected_completion,-0.08349665464668124,"[-0.1068794393215155, -0.061836671663631035]",10,0,10,0
+low,0.0,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",emotion_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",coverage,,,0,,,
+low,0.0,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",covered_accuracy,,,0,,,
+low,0.0,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",risk_coverage_area,,,0,,,
+low,0.0,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,-0.16091960569610328,"[-0.19794419991021192, -0.1240013098869515]",10,0,10,0
+low,0.0,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",skip_rate,0.08380000000000001,"[0.0641, 0.1076]",10,10,0,0
+low,0.0,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",expected_completion,-0.08294363861952482,"[-0.104499006887637, -0.06271777542120469]",10,0,10,0
+low,0.0,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",ndcg_at_10,-0.13402203836143495,"[-0.17477748271950336, -0.09705536200886923]",10,0,10,0
+low,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",skip_rate,0.0662,"[0.045497499999999996, 0.08969999999999997]",10,10,0,0
+low,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",expected_completion,-0.06958633079811835,"[-0.09222296540606253, -0.05009368109454534]",10,0,10,0
+low,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",emotion_accuracy,,,0,,,
+low,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",ndcg_at_10,-0.20323721545158707,"[-0.2403165280774639, -0.16693396945046265]",10,0,10,0
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",skip_rate,0.09309999999999999,"[0.0758, 0.11000000000000001]",10,10,0,0
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",expected_completion,-0.10189539252826049,"[-0.1231234674749306, -0.08151421583432232]",10,0,10,0
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",emotion_accuracy,,,0,,,
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",coverage,,,0,,,
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",covered_accuracy,,,0,,,
+low,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",risk_coverage_area,,,0,,,
+low,0.0,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,-0.0005462392033531605,"[-0.0031666982024357087, 0.002006960947235009]",10,4,6,0
+low,0.0,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",skip_rate,0.003700000000000003,"[-0.0033999999999999976, 0.010900000000000003]",10,6,3,1
+low,0.0,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",expected_completion,-0.00011964044291511433,"[-0.0020556568936651596, 0.0018577829947410741]",10,4,6,0
+low,0.0,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",fallback_rate,-0.23970000000000002,"[-0.25120000000000003, -0.2285]",10,0,10,0
+low,0.0,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.23970000000000002,"[0.2285, 0.25120000000000003]",10,10,0,0
+low,0.0,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,,,0,,,
+low,0.0,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,0.08510763733139484,"[0.08112813803577879, 0.08932035360577915]",10,10,0,0
+low,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",skip_rate,-0.05719999999999999,"[-0.0631, -0.05169999999999999]",10,0,10,0
+low,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",expected_completion,0.06105159433535351,"[0.05819921033722382, 0.06410272955223338]",10,10,0,0
+low,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",fallback_rate,-0.23970000000000002,"[-0.25120000000000003, -0.2285]",10,0,10,0
+low,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,,,0,,,
+low,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",coverage,,,0,,,
+low,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,,,0,,,
+low,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,,,0,,,
+low,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",ndcg_at_10,0.08565387653474801,"[0.0812600681952294, 0.08988793872326523]",10,10,0,0
+low,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",skip_rate,-0.060899999999999996,"[-0.06949999999999999, -0.0529]",10,0,10,0
+low,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",expected_completion,0.06117123477826862,"[0.058153103678140215, 0.06424089407457807]",10,10,0,0
+low,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",abstention_rate,-0.23970000000000002,"[-0.25120000000000003, -0.2285]",10,0,10,0
+low,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",emotion_accuracy,,,0,,,
+low,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",coverage,,,0,,,
+low,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",covered_accuracy,,,0,,,
+low,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",risk_coverage_area,,,0,,,
+low,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",ndcg_at_10,0.022141984765124988,"[-0.021761355277567538, 0.06508045011831166]",10,6,4,0
+low,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",skip_rate,-0.0047999999999999935,"[-0.024399999999999998, 0.015400000000000014]",10,4,6,0
+low,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",expected_completion,0.011606470413219999,"[-0.01300573525929741, 0.036170848341341724]",10,6,4,0
+low,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",fallback_rate,-0.23970000000000002,"[-0.25120000000000003, -0.2285]",10,0,10,0
+low,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",abstention_rate,0.23970000000000002,"[0.2285, 0.25120000000000003]",10,10,0,0
+low,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",emotion_accuracy,,,0,,,
+low,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",ndcg_at_10,0.0487298842216808,"[-0.011473620544507056, 0.10990521366134023]",10,6,4,0
+low,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",skip_rate,-0.040100000000000004,"[-0.0729, -0.007697500000000026]",10,3,7,0
+low,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",expected_completion,0.04492530798723144,"[0.011258674200815149, 0.07979311641409388]",10,6,4,0
+low,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",fallback_rate,-0.23970000000000002,"[-0.25120000000000003, -0.2285]",10,0,10,0
+low,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",emotion_accuracy,,,0,,,
+low,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",coverage,,,0,,,
+low,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",covered_accuracy,,,0,,,
+low,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",risk_coverage_area,,,0,,,
+low,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",ndcg_at_10,0.02658789945655581,"[-0.02012267909435263, 0.0742159329115724]",10,7,3,0
+low,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",skip_rate,-0.03530000000000001,"[-0.06180000000000001, -0.009800000000000014]",10,1,9,0
+low,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",expected_completion,0.03331883757401144,"[0.009695913845777492, 0.05847128864324462]",10,8,2,0
+low,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",abstention_rate,-0.23970000000000002,"[-0.25120000000000003, -0.2285]",10,0,10,0
+low,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",emotion_accuracy,,,0,,,
+low,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",coverage,,,0,,,
+low,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",covered_accuracy,,,0,,,
+low,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",risk_coverage_area,,,0,,,
+low,0.0,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",ndcg_at_10,-0.18727175733549867,"[-0.23052154491439927, -0.15076025671885349]",10,0,10,0
+low,0.0,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",skip_rate,0.09939999999999999,"[0.0771, 0.12469999999999999]",10,10,0,0
+low,0.0,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",expected_completion,-0.09760025434262484,"[-0.11657444337770463, -0.07905682816617571]",10,0,10,0
+low,0.0,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",emotion_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",coverage,,,0,,,
+low,0.0,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",covered_accuracy,,,0,,,
+low,0.0,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",risk_coverage_area,,,0,,,
+low,0.0,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,-0.13625205321022316,"[-0.1753179926625707, -0.10210601498930648]",10,0,10,0
+low,0.0,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",skip_rate,0.06799999999999999,"[0.05269999999999999, 0.08280000000000003]",10,10,0,0
+low,0.0,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",expected_completion,-0.07248304576240558,"[-0.0947394066927803, -0.05263194438638038]",10,0,10,0
+low,0.0,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",ndcg_at_10,-0.11356382924174498,"[-0.14836188206989875, -0.07762700815257596]",10,0,10,0
+low,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",skip_rate,0.0595,"[0.04, 0.0762]",10,10,0,0
+low,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",expected_completion,-0.06075693490627047,"[-0.07767823751103436, -0.042039951305288384]",10,0,10,0
+low,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",emotion_accuracy,,,0,,,
+low,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",ndcg_at_10,-0.17262980631993718,"[-0.20872111094356763, -0.13416838523049357]",10,0,10,0
+low,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",skip_rate,0.0851,"[0.0642, 0.10619999999999999]",10,10,0,0
+low,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",expected_completion,-0.08860933211052766,"[-0.10710078005242964, -0.06699231010177992]",10,0,10,0
+low,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",emotion_accuracy,,,0,,,
+low,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",coverage,,,0,,,
+low,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",covered_accuracy,,,0,,,
+low,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",risk_coverage_area,,,0,,,
+low,0.5,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,0.002569531541149794,"[-0.009717677161506927, 0.015245691037474984]",10,6,4,0
+low,0.5,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",skip_rate,-0.004000000000000001,"[-0.014700000000000008, 0.006300000000000005]",10,4,6,0
+low,0.5,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",expected_completion,0.002694547188440988,"[-0.0063324210817550025, 0.012141061651678017]",10,6,4,0
+low,0.5,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",fallback_rate,-0.06720000000000001,"[-0.07210000000000001, -0.0629]",10,0,10,0
+low,0.5,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.06720000000000001,"[0.0629, 0.07210000000000001]",10,10,0,0
+low,0.5,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,,,0,,,
+low,0.5,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,0.01851207652081508,"[0.01153763787400078, 0.026132649320899926]",10,10,0,0
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",skip_rate,-0.012199999999999999,"[-0.017599999999999998, -0.007497500000000018]",10,0,10,0
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",expected_completion,0.013829666783652822,"[0.0089216687863651, 0.01933274121820088]",10,10,0,0
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",fallback_rate,-0.06720000000000001,"[-0.07210000000000001, -0.0629]",10,0,10,0
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,,,0,,,
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",coverage,,,0,,,
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,,,0,,,
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,,,0,,,
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",ndcg_at_10,0.015942544979665286,"[0.007495836933634987, 0.02396174051337426]",10,8,2,0
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",skip_rate,-0.008199999999999999,"[-0.014400000000000005, -0.002099999999999999]",10,3,7,0
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",expected_completion,0.011135119595211834,"[0.005751668225126448, 0.01613224109971747]",10,9,1,0
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",abstention_rate,-0.06720000000000001,"[-0.07210000000000001, -0.0629]",10,0,10,0
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",emotion_accuracy,,,0,,,
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",coverage,,,0,,,
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",covered_accuracy,,,0,,,
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",risk_coverage_area,,,0,,,
+low,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",ndcg_at_10,-0.009495576038737363,"[-0.05145849670827041, 0.023405485668694416]",10,6,4,0
+low,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",skip_rate,0.006499999999999997,"[-0.0144, 0.03269999999999999]",10,4,5,1
+low,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",expected_completion,-0.007206946442485857,"[-0.029432530778364295, 0.010216089286535677]",10,7,3,0
+low,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",fallback_rate,-0.06720000000000001,"[-0.07210000000000001, -0.0629]",10,0,10,0
+low,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",abstention_rate,0.06720000000000001,"[0.0629, 0.07210000000000001]",10,10,0,0
+low,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",emotion_accuracy,,,0,,,
+low,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",ndcg_at_10,0.004359204840747755,"[-0.021585469786850543, 0.03411189171792932]",10,5,5,0
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",skip_rate,-0.004800000000000004,"[-0.018200000000000008, 0.005500000000000002]",10,5,4,1
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",expected_completion,0.008496179584745833,"[-0.005216445083417913, 0.02498722014924842]",10,7,3,0
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",fallback_rate,-0.06720000000000001,"[-0.07210000000000001, -0.0629]",10,0,10,0
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",emotion_accuracy,,,0,,,
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",coverage,,,0,,,
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",covered_accuracy,,,0,,,
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",risk_coverage_area,,,0,,,
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",ndcg_at_10,0.013854780879485117,"[-0.03192459196836049, 0.06117695167923064]",10,6,4,0
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",skip_rate,-0.011300000000000001,"[-0.03899999999999999, 0.012499999999999992]",10,4,6,0
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",expected_completion,0.01570312602723169,"[-0.005755224418259483, 0.041511996616865166]",10,5,5,0
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",abstention_rate,-0.06720000000000001,"[-0.07210000000000001, -0.0629]",10,0,10,0
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",emotion_accuracy,,,0,,,
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",coverage,,,0,,,
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",covered_accuracy,,,0,,,
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",risk_coverage_area,,,0,,,
+low,0.5,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",ndcg_at_10,-0.027457526899536754,"[-0.099463639254205, 0.04310121293278304]",10,5,5,0
+low,0.5,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",skip_rate,-0.01629999999999999,"[-0.05610250000000001, 0.02040000000000001]",10,5,5,0
+low,0.5,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",expected_completion,0.010321206298004214,"[-0.02807556249088129, 0.05330306611682824]",10,6,4,0
+low,0.5,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",emotion_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",coverage,,,0,,,
+low,0.5,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",covered_accuracy,,,0,,,
+low,0.5,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",risk_coverage_area,,,0,,,
+low,0.5,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,-0.015660692186231107,"[-0.08640701942846725, 0.055597685372055124]",10,5,5,0
+low,0.5,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",skip_rate,-0.02129999999999999,"[-0.060502499999999994, 0.014300000000000021]",10,4,6,0
+low,0.5,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",expected_completion,0.01669562806545171,"[-0.024671972343963337, 0.06201816289870891]",10,6,4,0
+low,0.5,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",ndcg_at_10,-0.027725799766118265,"[-0.10432095584830729, 0.04450096853365062]",10,5,5,0
+low,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",skip_rate,-0.01079999999999999,"[-0.05419999999999999, 0.032600000000000004]",10,5,5,0
+low,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",expected_completion,0.006794134434524868,"[-0.03709984275812115, 0.05121691605707476]",10,5,5,0
+low,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",emotion_accuracy,,,0,,,
+low,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",ndcg_at_10,-0.02981356386629843,"[-0.10135269360829587, 0.03937300959331812]",10,5,5,0
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",skip_rate,-0.013899999999999992,"[-0.0485025, 0.019100000000000006]",10,4,6,0
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",expected_completion,0.011362140866544723,"[-0.023839860514580143, 0.05075436328514867]",10,5,5,0
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",emotion_accuracy,,,0,,,
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",coverage,,,0,,,
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",covered_accuracy,,,0,,,
+low,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",risk_coverage_area,,,0,,,
+low,0.5,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,0.006761837377938895,"[-0.03601500531404125, 0.05105955065400169]",10,5,5,0
+low,0.5,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",skip_rate,-0.006999999999999995,"[-0.0414025, 0.025302499999999988]",10,5,5,0
+low,0.5,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",expected_completion,0.008320915080326641,"[-0.022138587581768076, 0.040651042674498344]",10,5,5,0
+low,0.5,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",fallback_rate,-0.23970000000000002,"[-0.25120000000000003, -0.2285]",10,0,10,0
+low,0.5,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.23970000000000002,"[0.2285, 0.25120000000000003]",10,10,0,0
+low,0.5,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,,,0,,,
+low,0.5,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,0.05982325800239097,"[0.03848745320623076, 0.08088035137976743]",10,9,1,0
+low,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",skip_rate,-0.03890000000000001,"[-0.056400000000000006, -0.02270000000000001]",10,1,9,0
+low,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",expected_completion,0.045077186639722495,"[0.030059587843342023, 0.06058135410534075]",10,10,0,0
+low,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",fallback_rate,-0.23970000000000002,"[-0.25120000000000003, -0.2285]",10,0,10,0
+low,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,,,0,,,
+low,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",coverage,,,0,,,
+low,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,,,0,,,
+low,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,,,0,,,
+low,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",ndcg_at_10,0.05306142062445207,"[0.02158898331365003, 0.08362493334443674]",10,8,2,0
+low,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",skip_rate,-0.03190000000000002,"[-0.0502, -0.013100000000000011]",10,2,8,0
+low,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",expected_completion,0.036756271559395856,"[0.017095004473518766, 0.0550276474404606]",10,8,2,0
+low,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",abstention_rate,-0.23970000000000002,"[-0.25120000000000003, -0.2285]",10,0,10,0
+low,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",emotion_accuracy,,,0,,,
+low,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",coverage,,,0,,,
+low,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",covered_accuracy,,,0,,,
+low,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",risk_coverage_area,,,0,,,
+low,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",ndcg_at_10,-0.01565924997334247,"[-0.029774154470403408, -0.0014976479169048766]",10,4,6,0
+low,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",skip_rate,0.012,"[-0.002099999999999985, 0.024600000000000004]",10,6,4,0
+low,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",expected_completion,-0.007638343257101221,"[-0.014749356705140495, 0.00022831024413282378]",10,3,7,0
+low,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",fallback_rate,-0.23970000000000002,"[-0.25120000000000003, -0.2285]",10,0,10,0
+low,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",abstention_rate,0.23970000000000002,"[0.2285, 0.25120000000000003]",10,10,0,0
+low,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",emotion_accuracy,,,0,,,
+low,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",ndcg_at_10,0.0020731516086186508,"[-0.0392633768337155, 0.03255959389093108]",10,8,2,0
+low,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",skip_rate,-0.012900000000000003,"[-0.03810000000000001, 0.018699999999999994]",10,3,7,0
+low,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",expected_completion,0.014298037639498301,"[-0.01168625867163478, 0.03287324371636983]",10,9,1,0
+low,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",fallback_rate,-0.23970000000000002,"[-0.25120000000000003, -0.2285]",10,0,10,0
+low,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",emotion_accuracy,,,0,,,
+low,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",coverage,,,0,,,
+low,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",covered_accuracy,,,0,,,
+low,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",risk_coverage_area,,,0,,,
+low,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",ndcg_at_10,0.01773240158196112,"[-0.025967269143433686, 0.0541636271538205]",10,8,2,0
+low,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",skip_rate,-0.024900000000000005,"[-0.05069999999999999, 0.00520249999999996]",10,2,8,0
+low,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",expected_completion,0.021936380896599522,"[-0.0027093629444837125, 0.042010650681120705]",10,9,1,0
+low,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",abstention_rate,-0.23970000000000002,"[-0.25120000000000003, -0.2285]",10,0,10,0
+low,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",emotion_accuracy,,,0,,,
+low,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",coverage,,,0,,,
+low,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",covered_accuracy,,,0,,,
+low,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",risk_coverage_area,,,0,,,
+low,0.5,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",ndcg_at_10,-0.03910005562448678,"[-0.11856146232790021, 0.0389616754185127]",10,5,5,0
+low,0.5,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",skip_rate,-0.008799999999999988,"[-0.055399999999999984, 0.03750249999999998]",10,5,5,0
+low,0.5,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",expected_completion,0.0020199306149309313,"[-0.04508441922442157, 0.05038244530179639]",10,5,5,0
+low,0.5,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",emotion_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",coverage,,,0,,,
+low,0.5,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",covered_accuracy,,,0,,,
+low,0.5,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",risk_coverage_area,,,0,,,
+low,0.5,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,0.01725467057272171,"[-0.052000953900113646, 0.09107313861927213]",10,6,4,0
+low,0.5,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",skip_rate,-0.03549999999999999,"[-0.08250249999999999, 0.00380000000000002]",10,3,7,0
+low,0.5,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",expected_completion,0.03582247695389818,"[-0.00641897328107178, 0.086576161723378]",10,6,4,0
+low,0.5,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",ndcg_at_10,-0.005166416778559657,"[-0.06380268615653839, 0.047430753125468045]",10,5,5,0
+low,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",skip_rate,-0.016499999999999997,"[-0.046799999999999994, 0.014099999999999993]",10,4,6,0
+low,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",expected_completion,0.019863218616470318,"[-0.010748189953560245, 0.05067962098544639]",10,6,4,0
+low,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",emotion_accuracy,,,0,,,
+low,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",ndcg_at_10,-0.040495435821050606,"[-0.12399760134672545, 0.038717425094722355]",10,5,5,0
+low,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",skip_rate,-0.009499999999999986,"[-0.05589999999999999, 0.03960000000000001]",10,4,6,0
+low,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",expected_completion,0.005043327953673987,"[-0.040777897258294504, 0.051148593776914615]",10,5,5,0
+low,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+low,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",emotion_accuracy,,,0,,,
+low,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",coverage,,,0,,,
+low,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",covered_accuracy,,,0,,,
+low,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",risk_coverage_area,,,0,,,
+high,0.0,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,-0.001575527433250612,"[-0.0047596301564147465, 0.001807213546210199]",10,4,6,0
+high,0.0,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",skip_rate,0.0013000000000000012,"[-0.005700000000000005, 0.008100000000000007]",10,6,3,1
+high,0.0,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",expected_completion,-0.001421210669845796,"[-0.0034331265682951678, 0.0008239368948436921]",10,2,8,0
+high,0.0,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",fallback_rate,-0.22000000000000003,"[-0.22490000000000002, -0.2151]",10,0,10,0
+high,0.0,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.22000000000000003,"[0.2151, 0.22490000000000002]",10,10,0,0
+high,0.0,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,,,0,,,
+high,0.0,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,0.03925639906355181,"[0.034774435394887976, 0.04358020405479615]",10,10,0,0
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",skip_rate,-0.026500000000000006,"[-0.035300000000000005, -0.016800000000000016]",10,0,10,0
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",expected_completion,0.02803098593154286,"[0.024762316243043078, 0.031198481532139243]",10,10,0,0
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",fallback_rate,-0.22000000000000003,"[-0.22490000000000002, -0.2151]",10,0,10,0
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,,,0,,,
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",coverage,,,0,,,
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,,,0,,,
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,,,0,,,
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",ndcg_at_10,0.040831926496802416,"[0.03806278767672593, 0.04353704469902322]",10,10,0,0
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",skip_rate,-0.02780000000000001,"[-0.034300000000000004, -0.021600000000000015]",10,0,10,0
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",expected_completion,0.029452196601388658,"[0.027030782951210752, 0.03179450452662257]",10,10,0,0
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",abstention_rate,-0.22000000000000003,"[-0.22490000000000002, -0.2151]",10,0,10,0
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",emotion_accuracy,,,0,,,
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",coverage,,,0,,,
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",covered_accuracy,,,0,,,
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",risk_coverage_area,,,0,,,
+high,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",ndcg_at_10,-0.009534613276620774,"[-0.0364680036954916, 0.01680975501819856]",10,4,6,0
+high,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",skip_rate,0.00990000000000001,"[-0.011199999999999983, 0.02930000000000001]",10,7,3,0
+high,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",expected_completion,-0.004698447381373538,"[-0.019247527877861846, 0.00936648240890642]",10,4,6,0
+high,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",fallback_rate,-0.22000000000000003,"[-0.22490000000000002, -0.2151]",10,0,10,0
+high,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",abstention_rate,0.22000000000000003,"[0.2151, 0.22490000000000002]",10,10,0,0
+high,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",emotion_accuracy,,,0,,,
+high,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",ndcg_at_10,0.027932491288564076,"[0.000150528169571629, 0.05898484485190826]",10,7,3,0
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",skip_rate,-0.011199999999999988,"[-0.03389999999999997, 0.00730249999999998]",10,4,6,0
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",expected_completion,0.021655592318657508,"[0.006537741970726052, 0.03875067057260841]",10,7,3,0
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",fallback_rate,-0.22000000000000003,"[-0.22490000000000002, -0.2151]",10,0,10,0
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",emotion_accuracy,,,0,,,
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",coverage,,,0,,,
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",covered_accuracy,,,0,,,
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",risk_coverage_area,,,0,,,
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",ndcg_at_10,0.03746710456518485,"[0.012291387134389858, 0.06231447418638931]",10,7,3,0
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",skip_rate,-0.021099999999999997,"[-0.033302500000000006, -0.007699999999999996]",10,2,8,0
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",expected_completion,0.026354039700031046,"[0.014591996333888479, 0.03763012525664831]",10,9,1,0
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",abstention_rate,-0.22000000000000003,"[-0.22490000000000002, -0.2151]",10,0,10,0
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",emotion_accuracy,,,0,,,
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",coverage,,,0,,,
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",covered_accuracy,,,0,,,
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",risk_coverage_area,,,0,,,
+high,0.0,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",ndcg_at_10,-0.11093765085341149,"[-0.13232616270706551, -0.09136439482420022]",10,0,10,0
+high,0.0,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",skip_rate,0.04930000000000002,"[0.037000000000000026, 0.06220249999999997]",10,10,0,0
+high,0.0,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",expected_completion,-0.056868297131048816,"[-0.06591561432636278, -0.04856850643262684]",10,0,10,0
+high,0.0,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",emotion_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",coverage,,,0,,,
+high,0.0,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",covered_accuracy,,,0,,,
+high,0.0,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",risk_coverage_area,,,0,,,
+high,0.0,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,-0.11600488476997264,"[-0.14147996871476318, -0.09166765677799672]",10,0,10,0
+high,0.0,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",skip_rate,0.048799999999999996,"[0.029400000000000003, 0.07209999999999997]",10,10,0,0
+high,0.0,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",expected_completion,-0.06164709874378468,"[-0.07605377837608839, -0.048149682282698544]",10,0,10,0
+high,0.0,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",ndcg_at_10,-0.12396397061334281,"[-0.14996019710301656, -0.09947619479983749]",10,0,10,0
+high,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",skip_rate,0.05740000000000001,"[0.0438, 0.0696]",10,10,0,0
+high,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",expected_completion,-0.06492433545531243,"[-0.07672506679228168, -0.05357482084369216]",10,0,10,0
+high,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",emotion_accuracy,,,0,,,
+high,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",ndcg_at_10,-0.12732879254496035,"[-0.1347749629320991, -0.11844817525202325]",10,0,10,0
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",skip_rate,0.06410000000000002,"[0.052500000000000026, 0.077]",10,10,0,0
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",expected_completion,-0.06802249235667004,"[-0.07233989471534683, -0.06309118948178917]",10,0,10,0
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",emotion_accuracy,,,0,,,
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",coverage,,,0,,,
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",covered_accuracy,,,0,,,
+high,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",risk_coverage_area,,,0,,,
+high,0.0,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,-0.0026029741525176566,"[-0.006487470055933564, 0.002076279426113475]",10,3,7,0
+high,0.0,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",skip_rate,0.00040000000000000593,"[-0.004399999999999987, 0.005500000000000005]",10,5,5,0
+high,0.0,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",expected_completion,-0.0019417163845251162,"[-0.004910981949469077, 0.001485813373110533]",10,3,7,0
+high,0.0,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",fallback_rate,-0.37729999999999997,"[-0.38639999999999997, -0.369]",10,0,10,0
+high,0.0,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.37729999999999997,"[0.369, 0.38639999999999997]",10,10,0,0
+high,0.0,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,,,0,,,
+high,0.0,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,0.039062019859636296,"[0.03386101651545951, 0.04385942332228173]",10,10,0,0
+high,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",skip_rate,-0.02469999999999999,"[-0.030599999999999995, -0.018699999999999987]",10,0,10,0
+high,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",expected_completion,0.02771648556704386,"[0.02406174661095214, 0.03115923144036404]",10,10,0,0
+high,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",fallback_rate,-0.37729999999999997,"[-0.38639999999999997, -0.369]",10,0,10,0
+high,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,,,0,,,
+high,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",coverage,,,0,,,
+high,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,,,0,,,
+high,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,,,0,,,
+high,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",ndcg_at_10,0.041664994012153955,"[0.038503680918458655, 0.04469732199339297]",10,10,0,0
+high,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",skip_rate,-0.025099999999999994,"[-0.0316, -0.018699999999999984]",10,0,10,0
+high,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",expected_completion,0.029658201951568975,"[0.027287336804108147, 0.032039961141160096]",10,10,0,0
+high,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",abstention_rate,-0.37729999999999997,"[-0.38639999999999997, -0.369]",10,0,10,0
+high,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",emotion_accuracy,,,0,,,
+high,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",coverage,,,0,,,
+high,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",covered_accuracy,,,0,,,
+high,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",risk_coverage_area,,,0,,,
+high,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",ndcg_at_10,0.015463690702407384,"[-0.009542865133181437, 0.04141458807965733]",10,5,5,0
+high,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",skip_rate,-0.004500000000000004,"[-0.02130000000000002, 0.011900000000000011]",10,6,4,0
+high,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",expected_completion,0.007986098531125035,"[-0.004091355419029441, 0.020682542927733288]",10,5,5,0
+high,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",fallback_rate,-0.37729999999999997,"[-0.38639999999999997, -0.369]",10,0,10,0
+high,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",abstention_rate,0.37729999999999997,"[0.369, 0.38639999999999997]",10,10,0,0
+high,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",emotion_accuracy,,,0,,,
+high,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",ndcg_at_10,0.029012891878764158,"[-0.0024803625258440687, 0.059601690657767915]",10,7,3,0
+high,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",skip_rate,-0.02300000000000001,"[-0.04370000000000002, -0.0015975000000000162]",10,4,6,0
+high,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",expected_completion,0.02133905077423342,"[0.0034297622915669137, 0.03948087219753302]",10,7,3,0
+high,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",fallback_rate,-0.37729999999999997,"[-0.38639999999999997, -0.369]",10,0,10,0
+high,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",emotion_accuracy,,,0,,,
+high,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",coverage,,,0,,,
+high,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",covered_accuracy,,,0,,,
+high,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",risk_coverage_area,,,0,,,
+high,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",ndcg_at_10,0.013549201176356773,"[-0.019285279962583293, 0.04759236112813721]",10,4,6,0
+high,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",skip_rate,-0.018500000000000006,"[-0.040100000000000004, 0.0025000000000000022]",10,3,7,0
+high,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",expected_completion,0.013352952243108385,"[-0.005191580710673716, 0.03263929897902273]",10,5,5,0
+high,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",abstention_rate,-0.37729999999999997,"[-0.38639999999999997, -0.369]",10,0,10,0
+high,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",emotion_accuracy,,,0,,,
+high,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",coverage,,,0,,,
+high,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",covered_accuracy,,,0,,,
+high,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",risk_coverage_area,,,0,,,
+high,0.0,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",ndcg_at_10,-0.10036837066461583,"[-0.12461780656571726, -0.07672397996612287]",10,0,10,0
+high,0.0,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",skip_rate,0.04470000000000001,"[0.03169749999999999, 0.05820000000000003]",10,10,0,0
+high,0.0,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",expected_completion,-0.05292624652373008,"[-0.06755943488006862, -0.038123717933821674]",10,0,10,0
+high,0.0,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",emotion_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",coverage,,,0,,,
+high,0.0,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",covered_accuracy,,,0,,,
+high,0.0,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",risk_coverage_area,,,0,,,
+high,0.0,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,-0.10275428407466447,"[-0.11886705931674431, -0.08620708463598488]",10,0,10,0
+high,0.0,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",skip_rate,0.051000000000000024,"[0.03699750000000002, 0.06450249999999999]",10,10,0,0
+high,0.0,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",expected_completion,-0.05468028178786342,"[-0.06395761210022723, -0.04504697203636431]",10,0,10,0
+high,0.0,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",ndcg_at_10,-0.08468761921973943,"[-0.10733271209171986, -0.06437895873154875]",10,0,10,0
+high,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",skip_rate,0.046100000000000016,"[0.03020000000000001, 0.0629]",10,10,0,0
+high,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",expected_completion,-0.04475246687221328,"[-0.056227646510496034, -0.03437806875675409]",10,0,10,0
+high,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",emotion_accuracy,,,0,,,
+high,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",ndcg_at_10,-0.11280341205553661,"[-0.1334313556897405, -0.09135756480471162]",10,0,10,0
+high,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",skip_rate,0.052700000000000004,"[0.03699999999999999, 0.06940000000000002]",10,10,0,0
+high,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",expected_completion,-0.06105771658067387,"[-0.07300157927442263, -0.049282742855327]",10,0,10,0
+high,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",emotion_accuracy,,,0,,,
+high,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",coverage,,,0,,,
+high,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",covered_accuracy,,,0,,,
+high,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",risk_coverage_area,,,0,,,
+high,0.5,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,0.007178225383449044,"[-0.03306300154100713, 0.047802510093875865]",10,5,5,0
+high,0.5,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",skip_rate,-0.008900000000000002,"[-0.043199999999999995, 0.024102499999999957]",10,5,5,0
+high,0.5,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",expected_completion,0.007772955809410986,"[-0.020364120429296216, 0.03679675386244219]",10,5,5,0
+high,0.5,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",fallback_rate,-0.22000000000000003,"[-0.22490000000000002, -0.2151]",10,0,10,0
+high,0.5,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.22000000000000003,"[0.2151, 0.22490000000000002]",10,10,0,0
+high,0.5,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,,,0,,,
+high,0.5,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,0.024178980737995192,"[0.002595222727752276, 0.04417563805149003]",10,7,3,0
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",skip_rate,-0.0179,"[-0.03940000000000001, 0.0034000000000000085]",10,3,7,0
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",expected_completion,0.018514100174748728,"[0.0031898938122409868, 0.03295604457236339]",10,8,2,0
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",fallback_rate,-0.22000000000000003,"[-0.22490000000000002, -0.2151]",10,0,10,0
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,,,0,,,
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",coverage,,,0,,,
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,,,0,,,
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,,,0,,,
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",ndcg_at_10,0.01700075535454615,"[-0.009449745073623773, 0.04296693816696314]",10,6,4,0
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",skip_rate,-0.008999999999999998,"[-0.025999999999999978, 0.009199999999999991]",10,4,6,0
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",expected_completion,0.01074114436533774,"[-0.006601093409946789, 0.02690498544978179]",10,6,4,0
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",abstention_rate,-0.22000000000000003,"[-0.22490000000000002, -0.2151]",10,0,10,0
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",emotion_accuracy,,,0,,,
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",coverage,,,0,,,
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",covered_accuracy,,,0,,,
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",risk_coverage_area,,,0,,,
+high,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",ndcg_at_10,-0.016217733213296358,"[-0.037736320943512654, 0.010517349665694148]",10,4,6,0
+high,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",skip_rate,0.009799999999999994,"[-0.0058000000000000135, 0.024699999999999996]",10,8,2,0
+high,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",expected_completion,-0.009150151952020114,"[-0.02153523554420305, 0.006149863741077674]",10,3,7,0
+high,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",fallback_rate,-0.22000000000000003,"[-0.22490000000000002, -0.2151]",10,0,10,0
+high,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",abstention_rate,0.22000000000000003,"[0.2151, 0.22490000000000002]",10,10,0,0
+high,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",emotion_accuracy,,,0,,,
+high,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",ndcg_at_10,0.0019562448676578416,"[-0.026514704286418386, 0.0245257078526276]",10,6,4,0
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",skip_rate,-0.0024000000000000076,"[-0.018300000000000018, 0.014899999999999997]",10,3,7,0
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",expected_completion,0.006214116216912441,"[-0.011760376410517264, 0.01993555918335384]",10,8,2,0
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",fallback_rate,-0.22000000000000003,"[-0.22490000000000002, -0.2151]",10,0,10,0
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",emotion_accuracy,,,0,,,
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",coverage,,,0,,,
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",covered_accuracy,,,0,,,
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",risk_coverage_area,,,0,,,
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",ndcg_at_10,0.018173978080954202,"[-0.014967211449830181, 0.049305952526241204]",10,7,3,0
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",skip_rate,-0.012200000000000003,"[-0.03470000000000001, 0.011899999999999999]",10,3,7,0
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",expected_completion,0.015364268168932554,"[-0.005043470010420576, 0.03303861148283141]",10,8,2,0
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",abstention_rate,-0.22000000000000003,"[-0.22490000000000002, -0.2151]",10,0,10,0
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",emotion_accuracy,,,0,,,
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",coverage,,,0,,,
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",covered_accuracy,,,0,,,
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",risk_coverage_area,,,0,,,
+high,0.5,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",ndcg_at_10,0.005498349409953629,"[-0.0724397294233613, 0.08108204415843935]",10,5,5,0
+high,0.5,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",skip_rate,-0.03530000000000001,"[-0.08120250000000001, 0.011402499999999953]",10,4,6,0
+high,0.5,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",expected_completion,0.025188935310443646,"[-0.022928556283199796, 0.07432846036902567]",10,6,4,0
+high,0.5,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",emotion_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",coverage,,,0,,,
+high,0.5,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",covered_accuracy,,,0,,,
+high,0.5,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",risk_coverage_area,,,0,,,
+high,0.5,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,0.05985520571588902,"[-0.0036303615889195684, 0.13070812639829346]",10,8,2,0
+high,0.5,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",skip_rate,-0.06489999999999999,"[-0.11690250000000003, -0.01889750000000001]",10,3,7,0
+high,0.5,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",expected_completion,0.059320941734922264,"[0.01485466570075347, 0.11140714992561555]",10,8,2,0
+high,0.5,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",ndcg_at_10,0.036459247119143626,"[-0.01402668236033947, 0.08250238132298861]",10,7,3,0
+high,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",skip_rate,-0.0462,"[-0.07269999999999999, -0.018400000000000003]",10,2,8,0
+high,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",expected_completion,0.04239783397349116,"[0.01370272077924398, 0.07159996182353412]",10,7,3,0
+high,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",emotion_accuracy,,,0,,,
+high,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",ndcg_at_10,0.03763246984555167,"[-0.0269428665702506, 0.10492577993071676]",10,5,5,0
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",skip_rate,-0.0494,"[-0.09489999999999998, -0.008395000000000069]",10,4,6,0
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",expected_completion,0.047020957777085974,"[0.0034637250489465464, 0.09383568385955335]",10,7,3,0
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",emotion_accuracy,,,0,,,
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",coverage,,,0,,,
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",covered_accuracy,,,0,,,
+high,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",risk_coverage_area,,,0,,,
+high,0.5,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,0.009567316106126,"[-0.057677314292801304, 0.07753928249351162]",10,5,5,0
+high,0.5,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",skip_rate,-0.0163,"[-0.06960000000000002, 0.03499999999999999]",10,4,6,0
+high,0.5,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",expected_completion,0.01172350263960829,"[-0.03522681112922615, 0.060614455375616556]",10,5,5,0
+high,0.5,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",fallback_rate,-0.37729999999999997,"[-0.38639999999999997, -0.369]",10,0,10,0
+high,0.5,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.37729999999999997,"[0.369, 0.38639999999999997]",10,10,0,0
+high,0.5,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,,,0,,,
+high,0.5,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,0.017529907200620753,"[-0.014869177757204229, 0.048796730440468825]",10,7,3,0
+high,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",skip_rate,-0.008800000000000007,"[-0.03550250000000001, 0.018100000000000012]",10,3,7,0
+high,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",expected_completion,0.01436816462622964,"[-0.008407506688126766, 0.03685488098817705]",10,7,3,0
+high,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",fallback_rate,-0.37729999999999997,"[-0.38639999999999997, -0.369]",10,0,10,0
+high,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,,,0,,,
+high,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",coverage,,,0,,,
+high,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,,,0,,,
+high,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,,,0,,,
+high,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",ndcg_at_10,0.007962591094494754,"[-0.03696111416711259, 0.05091412132376538]",10,5,5,0
+high,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",skip_rate,0.00749999999999999,"[-0.021, 0.038302499999999955]",10,5,5,0
+high,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",expected_completion,0.0026446619866213493,"[-0.028730911510494624, 0.031445601391379835]",10,5,5,0
+high,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",abstention_rate,-0.37729999999999997,"[-0.38639999999999997, -0.369]",10,0,10,0
+high,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",emotion_accuracy,,,0,,,
+high,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",coverage,,,0,,,
+high,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",covered_accuracy,,,0,,,
+high,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",risk_coverage_area,,,0,,,
+high,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",ndcg_at_10,0.019483237204857406,"[-0.0620544371212032, 0.11396321635576868]",10,6,4,0
+high,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",skip_rate,-0.011299999999999996,"[-0.06769999999999998, 0.036699999999999997]",10,6,4,0
+high,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",expected_completion,0.012708237694378385,"[-0.03527194182614135, 0.06840946366417906]",10,6,4,0
+high,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",fallback_rate,-0.37729999999999997,"[-0.38639999999999997, -0.369]",10,0,10,0
+high,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",abstention_rate,0.37729999999999997,"[0.369, 0.38639999999999997]",10,10,0,0
+high,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",emotion_accuracy,,,0,,,
+high,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",ndcg_at_10,0.04886932590590446,"[-0.021291577335325346, 0.129934238946624]",10,6,4,0
+high,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",skip_rate,-0.0389,"[-0.08900249999999998, 0.0050000000000000044]",10,3,7,0
+high,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",expected_completion,0.03291895818301328,"[-0.010582231407901757, 0.08198232046528123]",10,6,4,0
+high,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",fallback_rate,-0.37729999999999997,"[-0.38639999999999997, -0.369]",10,0,10,0
+high,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",emotion_accuracy,,,0,,,
+high,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",coverage,,,0,,,
+high,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",covered_accuracy,,,0,,,
+high,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",risk_coverage_area,,,0,,,
+high,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",ndcg_at_10,0.02938608870104705,"[-0.0008901719856109884, 0.06453519222009815]",10,8,2,0
+high,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",skip_rate,-0.027600000000000003,"[-0.05160250000000001, -0.007599999999999996]",10,2,8,0
+high,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",expected_completion,0.0202107204886349,"[0.0030008775132257066, 0.038235338448379515]",10,8,2,0
+high,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",abstention_rate,-0.37729999999999997,"[-0.38639999999999997, -0.369]",10,0,10,0
+high,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",emotion_accuracy,,,0,,,
+high,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",coverage,,,0,,,
+high,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",covered_accuracy,,,0,,,
+high,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",risk_coverage_area,,,0,,,
+high,0.5,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",ndcg_at_10,0.012607903075716909,"[-0.05347979663866826, 0.08319650578448567]",10,5,5,0
+high,0.5,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",skip_rate,-0.0419,"[-0.09090250000000001, 0.0007000000000000172]",10,3,7,0
+high,0.5,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",expected_completion,0.024883423099032333,"[-0.019288555598931903, 0.07605513950060933]",10,6,4,0
+high,0.5,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",emotion_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",coverage,,,0,,,
+high,0.5,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",covered_accuracy,,,0,,,
+high,0.5,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",risk_coverage_area,,,0,,,
+high,0.5,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,0.03247003102386677,"[-0.07396473674989418, 0.14373766766898638]",10,5,5,0
+high,0.5,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",skip_rate,-0.0455,"[-0.12800499999999998, 0.03100249999999992]",10,3,7,0
+high,0.5,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",expected_completion,0.04136209159830316,"[-0.03155055694885257, 0.12107540806866436]",10,5,5,0
+high,0.5,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",ndcg_at_10,0.04238595212259818,"[-0.015170478717773378, 0.0925554805149738]",10,6,4,0
+high,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",skip_rate,-0.0405,"[-0.06810250000000001, -0.011400000000000002]",10,2,8,0
+high,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",expected_completion,0.042346826653073245,"[0.008152193953021336, 0.07605499034815068]",10,8,2,0
+high,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",emotion_accuracy,,,0,,,
+high,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",ndcg_at_10,0.06380944972915048,"[-0.002590777798832031, 0.13072009944123952]",10,8,2,0
+high,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",skip_rate,-0.0756,"[-0.12190250000000001, -0.0309]",10,2,8,0
+high,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",expected_completion,0.05991288515508679,"[0.0135818612802295, 0.1096838417592343]",10,8,2,0
+high,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+high,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",emotion_accuracy,,,0,,,
+high,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",coverage,,,0,,,
+high,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",covered_accuracy,,,0,,,
+high,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",risk_coverage_area,,,0,,,
+asymmetric,0.0,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,-0.0011272924262950013,"[-0.00499343345005188, 0.0024104237644563325]",10,6,4,0
+asymmetric,0.0,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",skip_rate,0.00010000000000000009,"[-0.006900000000000006, 0.007000000000000006]",10,4,5,1
+asymmetric,0.0,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",expected_completion,-0.0008926956437377065,"[-0.0033607759435124954, 0.0014321778665961021]",10,5,5,0
+asymmetric,0.0,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",fallback_rate,-0.1989,"[-0.2062, -0.1908]",10,0,10,0
+asymmetric,0.0,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.1989,"[0.1908, 0.2062]",10,10,0,0
+asymmetric,0.0,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,,,0,,,
+asymmetric,0.0,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,0.032786197301945263,"[0.028701695012232204, 0.036633351466710595]",10,10,0,0
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",skip_rate,-0.023400000000000015,"[-0.03160000000000003, -0.014700000000000008]",10,0,9,1
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",expected_completion,0.023356112900916316,"[0.020408406888989605, 0.026150843434642315]",10,10,0,0
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",fallback_rate,-0.1989,"[-0.2062, -0.1908]",10,0,10,0
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,,,0,,,
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",coverage,,,0,,,
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,,,0,,,
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,,,0,,,
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",ndcg_at_10,0.033913489728240265,"[0.031288044339390295, 0.03658915664502371]",10,10,0,0
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",skip_rate,-0.023500000000000014,"[-0.029000000000000015, -0.018400000000000017]",10,0,10,0
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",expected_completion,0.02424880854465402,"[0.02212171231441236, 0.026354708563830452]",10,10,0,0
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",abstention_rate,-0.1989,"[-0.2062, -0.1908]",10,0,10,0
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",emotion_accuracy,,,0,,,
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",coverage,,,0,,,
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",covered_accuracy,,,0,,,
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",risk_coverage_area,,,0,,,
+asymmetric,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",ndcg_at_10,0.0046269606690308215,"[-0.01876400136177334, 0.026893942226432672]",10,6,4,0
+asymmetric,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",skip_rate,0.007700000000000007,"[-0.007902500000000005, 0.022802499999999986]",10,7,3,0
+asymmetric,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",expected_completion,0.0008191705897626245,"[-0.01311490853405639, 0.013449127702035713]",10,6,4,0
+asymmetric,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",fallback_rate,-0.1989,"[-0.2062, -0.1908]",10,0,10,0
+asymmetric,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",abstention_rate,0.1989,"[0.1908, 0.2062]",10,10,0,0
+asymmetric,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",emotion_accuracy,,,0,,,
+asymmetric,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",ndcg_at_10,0.03448457212909774,"[0.0008748603481326011, 0.0697960214777634]",10,7,3,0
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",skip_rate,-0.01820000000000001,"[-0.03980250000000002, 0.0007000000000000006]",10,3,7,0
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",expected_completion,0.02178440631671087,"[0.002987275477306613, 0.04217873566861622]",10,7,3,0
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",fallback_rate,-0.1989,"[-0.2062, -0.1908]",10,0,10,0
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",emotion_accuracy,,,0,,,
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",coverage,,,0,,,
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",covered_accuracy,,,0,,,
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",risk_coverage_area,,,0,,,
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",ndcg_at_10,0.029857611460066914,"[0.0078100255913050864, 0.05318465309474128]",10,8,2,0
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",skip_rate,-0.025900000000000017,"[-0.03650000000000002, -0.016800000000000016]",10,0,10,0
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",expected_completion,0.020965235726948243,"[0.008717446681441315, 0.03364254917473181]",10,8,2,0
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",abstention_rate,-0.1989,"[-0.2062, -0.1908]",10,0,10,0
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",emotion_accuracy,,,0,,,
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",coverage,,,0,,,
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",covered_accuracy,,,0,,,
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",risk_coverage_area,,,0,,,
+asymmetric,0.0,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",ndcg_at_10,-0.12232425809248744,"[-0.15363394467835476, -0.09105125809260832]",10,0,10,0
+asymmetric,0.0,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",skip_rate,0.05570000000000001,"[0.03480000000000001, 0.07760249999999999]",10,10,0,0
+asymmetric,0.0,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",expected_completion,-0.06509957420533193,"[-0.08313890433710135, -0.04750031758485575]",10,0,10,0
+asymmetric,0.0,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",emotion_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",coverage,,,0,,,
+asymmetric,0.0,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",covered_accuracy,,,0,,,
+asymmetric,0.0,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",risk_coverage_area,,,0,,,
+asymmetric,0.0,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,-0.11910572486525586,"[-0.1353463124555651, -0.10188677343977873]",10,0,10,0
+asymmetric,0.0,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",skip_rate,0.05319999999999999,"[0.03779999999999998, 0.0719]",10,10,0,0
+asymmetric,0.0,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",expected_completion,-0.06397465149959639,"[-0.07417573508606887, -0.053886093454361995]",10,0,10,0
+asymmetric,0.0,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",ndcg_at_10,-0.11335147176993003,"[-0.13239683153126522, -0.0940434535964091]",10,0,10,0
+asymmetric,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",skip_rate,0.060799999999999986,"[0.047699999999999985, 0.07410000000000001]",10,10,0,0
+asymmetric,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",expected_completion,-0.062262785266096056,"[-0.07286540500854538, -0.05186107681561866]",10,0,10,0
+asymmetric,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",emotion_accuracy,,,0,,,
+asymmetric,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",ndcg_at_10,-0.11740735003810339,"[-0.1398382935592767, -0.09249451650798166]",10,0,10,0
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",skip_rate,0.058399999999999994,"[0.0482, 0.06869999999999998]",10,10,0,0
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",expected_completion,-0.06554635808380184,"[-0.07726942251602938, -0.05189524482704567]",10,0,10,0
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",emotion_accuracy,,,0,,,
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",coverage,,,0,,,
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",covered_accuracy,,,0,,,
+asymmetric,0.0,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",risk_coverage_area,,,0,,,
+asymmetric,0.0,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,-0.0015608894117756344,"[-0.005476759845455536, 0.002834248911286121]",10,4,6,0
+asymmetric,0.0,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",skip_rate,0.0005000000000000004,"[-0.004899999999999999, 0.006102499999999963]",10,4,5,1
+asymmetric,0.0,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",expected_completion,-0.0011626130071685226,"[-0.004243572818727063, 0.002172022784612493]",10,4,6,0
+asymmetric,0.0,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",fallback_rate,-0.3863,"[-0.3951025, -0.3781]",10,0,10,0
+asymmetric,0.0,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.3863,"[0.3781, 0.39510249999999997]",10,10,0,0
+asymmetric,0.0,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,,,0,,,
+asymmetric,0.0,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,0.045386203787453595,"[0.040108501414867354, 0.05047848391374747]",10,10,0,0
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",skip_rate,-0.02739999999999999,"[-0.036099999999999986, -0.018899999999999983]",10,0,10,0
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",expected_completion,0.032296109786239494,"[0.028549535387909164, 0.03597320885356713]",10,10,0,0
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",fallback_rate,-0.3863,"[-0.3951025, -0.3781]",10,0,10,0
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,,,0,,,
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",coverage,,,0,,,
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,,,0,,,
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,,,0,,,
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",ndcg_at_10,0.046947093199229226,"[0.044049458392152484, 0.049801594118079696]",10,10,0,0
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",skip_rate,-0.02789999999999999,"[-0.03630000000000001, -0.01949999999999999]",10,0,10,0
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",expected_completion,0.033458722793408016,"[0.031072449088499352, 0.035842723728179]",10,10,0,0
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",abstention_rate,-0.3863,"[-0.3951025, -0.3781]",10,0,10,0
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",emotion_accuracy,,,0,,,
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",coverage,,,0,,,
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",covered_accuracy,,,0,,,
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",risk_coverage_area,,,0,,,
+asymmetric,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",ndcg_at_10,-0.018097961922512795,"[-0.04989315918841297, 0.015750795478652053]",10,2,8,0
+asymmetric,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",skip_rate,0.018200000000000004,"[-0.010699999999999987, 0.0435]",10,7,3,0
+asymmetric,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",expected_completion,-0.009084728639744804,"[-0.026610867050520112, 0.010229384852049729]",10,2,8,0
+asymmetric,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",fallback_rate,-0.3863,"[-0.3951025, -0.3781]",10,0,10,0
+asymmetric,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",abstention_rate,0.3863,"[0.3781, 0.39510249999999997]",10,10,0,0
+asymmetric,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",emotion_accuracy,,,0,,,
+asymmetric,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",ndcg_at_10,0.008163283303165802,"[-0.018626426120806505, 0.033611846096674156]",10,6,4,0
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",skip_rate,-0.010199999999999992,"[-0.0252, 0.0060000000000000105]",10,4,6,0
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",expected_completion,0.009223867355981036,"[-0.007136436905128432, 0.024610467918738627]",10,7,3,0
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",fallback_rate,-0.3863,"[-0.3951025, -0.3781]",10,0,10,0
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",emotion_accuracy,,,0,,,
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",coverage,,,0,,,
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",covered_accuracy,,,0,,,
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",risk_coverage_area,,,0,,,
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",ndcg_at_10,0.026261245225678596,"[-0.00668783439350326, 0.061394858111095275]",10,6,4,0
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",skip_rate,-0.028399999999999998,"[-0.05450000000000001, -0.0032975000000000283]",10,3,7,0
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",expected_completion,0.01830859599572584,"[-0.00016854249071811175, 0.03784772093252232]",10,6,4,0
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",abstention_rate,-0.3863,"[-0.3951025, -0.3781]",10,0,10,0
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",emotion_accuracy,,,0,,,
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",coverage,,,0,,,
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",covered_accuracy,,,0,,,
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",risk_coverage_area,,,0,,,
+asymmetric,0.0,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",ndcg_at_10,-0.0988092548241827,"[-0.11789092062807512, -0.07864770333016097]",10,0,10,0
+asymmetric,0.0,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",skip_rate,0.0471,"[0.033699999999999994, 0.06240000000000001]",10,10,0,0
+asymmetric,0.0,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",expected_completion,-0.052531658413915425,"[-0.063672467593135, -0.04103672058586811]",10,0,10,0
+asymmetric,0.0,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",emotion_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",coverage,,,0,,,
+asymmetric,0.0,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",covered_accuracy,,,0,,,
+asymmetric,0.0,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",risk_coverage_area,,,0,,,
+asymmetric,0.0,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,-0.08072911557411136,"[-0.09943549086291838, -0.06297516955054473]",10,0,10,0
+asymmetric,0.0,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",skip_rate,0.035100000000000006,"[0.021300000000000006, 0.05409999999999998]",10,10,0,0
+asymmetric,0.0,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",expected_completion,-0.04275930488119266,"[-0.053112270066683225, -0.03281132690926432]",10,0,10,0
+asymmetric,0.0,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",ndcg_at_10,-0.09726618808484852,"[-0.1236711781414364, -0.07379002623469924]",10,0,10,0
+asymmetric,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",skip_rate,0.0528,"[0.03640000000000003, 0.07269999999999999]",10,10,0,0
+asymmetric,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",expected_completion,-0.050681420513768935,"[-0.0644189355469406, -0.03764075169747111]",10,0,10,0
+asymmetric,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",emotion_accuracy,,,0,,,
+asymmetric,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",ndcg_at_10,-0.11795203605839914,"[-0.13737757334229067, -0.09834335715051917]",10,0,10,0
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",skip_rate,0.0523,"[0.0362, 0.06900000000000002]",10,10,0,0
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",expected_completion,-0.0658315473114511,"[-0.07776672446471815, -0.054783360104054636]",10,0,10,0
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",emotion_accuracy,,,0,,,
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",coverage,,,0,,,
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",covered_accuracy,,,0,,,
+asymmetric,0.0,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",risk_coverage_area,,,0,,,
+asymmetric,0.5,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,0.0075175142348888335,"[-0.02927411964814299, 0.04489847329881792]",10,5,5,0
+asymmetric,0.5,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",skip_rate,-0.007600000000000007,"[-0.040799999999999996, 0.023602499999999978]",10,5,5,0
+asymmetric,0.5,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",expected_completion,0.008021267565094992,"[-0.018006932235767662, 0.03523630822541934]",10,5,5,0
+asymmetric,0.5,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",fallback_rate,-0.1989,"[-0.2062, -0.1908]",10,0,10,0
+asymmetric,0.5,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.1989,"[0.1908, 0.2062]",10,10,0,0
+asymmetric,0.5,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,,,0,,,
+asymmetric,0.5,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,rescaled,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,0.020494553365155942,"[0.0015815782928115423, 0.038075396832292996]",10,7,3,0
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",skip_rate,-0.011599999999999994,"[-0.0314, 0.007500000000000012]",10,4,6,0
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",expected_completion,0.015585585414405651,"[0.0017265569391910378, 0.028789950745032548]",10,8,2,0
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",fallback_rate,-0.1989,"[-0.2062, -0.1908]",10,0,10,0
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,,,0,,,
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",coverage,,,0,,,
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,,,0,,,
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,,,0,,,
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",ndcg_at_10,0.012977039130267109,"[-0.010814102528554716, 0.03577394398918272]",10,6,4,0
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",skip_rate,-0.003999999999999987,"[-0.020199999999999985, 0.013000000000000006]",10,5,5,0
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",expected_completion,0.007564317849310659,"[-0.00833368547635736, 0.0222582463822505]",10,6,4,0
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",abstention_rate,-0.1989,"[-0.2062, -0.1908]",10,0,10,0
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",emotion_accuracy,,,0,,,
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",coverage,,,0,,,
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",covered_accuracy,,,0,,,
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",risk_coverage_area,,,0,,,
+asymmetric,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",ndcg_at_10,-0.010774729415496764,"[-0.04353113476563059, 0.017471446234038936]",10,5,5,0
+asymmetric,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",skip_rate,0.010499999999999999,"[-0.008200000000000002, 0.03400000000000001]",10,5,4,1
+asymmetric,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",expected_completion,-0.009286221473291084,"[-0.03106984615307367, 0.008894006844932065]",10,5,5,0
+asymmetric,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",fallback_rate,-0.1989,"[-0.2062, -0.1908]",10,0,10,0
+asymmetric,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",abstention_rate,0.1989,"[0.1908, 0.2062]",10,10,0,0
+asymmetric,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",emotion_accuracy,,,0,,,
+asymmetric,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",ndcg_at_10,0.0047718911025473095,"[-0.006405786217642529, 0.016307075625226746]",10,6,4,0
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",skip_rate,0.003599999999999992,"[-0.0047000000000000045, 0.011199999999999965]",10,6,4,0
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",expected_completion,0.008004843072496482,"[-9.911307377175753e-05, 0.0167160031739612]",10,6,4,0
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",fallback_rate,-0.1989,"[-0.2062, -0.1908]",10,0,10,0
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",emotion_accuracy,,,0,,,
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",coverage,,,0,,,
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",covered_accuracy,,,0,,,
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",risk_coverage_area,,,0,,,
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",ndcg_at_10,0.015546620518044073,"[-0.016419111302169165, 0.04948372649067134]",10,6,4,0
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",skip_rate,-0.006900000000000006,"[-0.030900000000000004, 0.013099999999999983]",10,6,4,0
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",expected_completion,0.017291064545787566,"[-0.0028095116950549947, 0.0402687285752838]",10,6,4,0
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",abstention_rate,-0.1989,"[-0.2062, -0.1908]",10,0,10,0
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",emotion_accuracy,,,0,,,
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",coverage,,,0,,,
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",covered_accuracy,,,0,,,
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",risk_coverage_area,,,0,,,
+asymmetric,0.5,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",ndcg_at_10,0.05113532519312898,"[-0.021213350534170377, 0.1218556650915886]",10,7,3,0
+asymmetric,0.5,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",skip_rate,-0.05560000000000002,"[-0.10350000000000001, -0.013597500000000031]",10,3,7,0
+asymmetric,0.5,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",expected_completion,0.05387318897437415,"[0.007460435623612135, 0.10330462285988581]",10,7,3,0
+asymmetric,0.5,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",emotion_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",coverage,,,0,,,
+asymmetric,0.5,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",covered_accuracy,,,0,,,
+asymmetric,0.5,rescaled,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",risk_coverage_area,,,0,,,
+asymmetric,0.5,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,0.05271712389662152,"[-0.015846880656389582, 0.12403653242053506]",10,6,4,0
+asymmetric,0.5,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",skip_rate,-0.0603,"[-0.11190250000000003, -0.013797500000000025]",10,4,6,0
+asymmetric,0.5,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",expected_completion,0.053146167785403986,"[0.0053686750797875184, 0.1054919967092069]",10,6,4,0
+asymmetric,0.5,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,rescaled,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",ndcg_at_10,0.034424880246235925,"[-0.017292654806750896, 0.08407435576622728]",10,7,3,0
+asymmetric,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",skip_rate,-0.042199999999999994,"[-0.0766, -0.009599999999999992]",10,2,8,0
+asymmetric,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",expected_completion,0.03583867874701791,"[0.00024499732561685883, 0.07201884004711352]",10,8,2,0
+asymmetric,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",emotion_accuracy,,,0,,,
+asymmetric,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,rescaled,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",ndcg_at_10,0.03699446163401289,"[-0.03090020967345768, 0.10350131366731248]",10,6,4,0
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",skip_rate,-0.045100000000000015,"[-0.0864, -0.004600000000000004]",10,4,6,0
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",expected_completion,0.04556542544349482,"[0.0016896357646963552, 0.09131950908430778]",10,7,3,0
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",emotion_accuracy,,,0,,,
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",coverage,,,0,,,
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",covered_accuracy,,,0,,,
+asymmetric,0.5,rescaled,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",risk_coverage_area,,,0,,,
+asymmetric,0.5,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,0.011082544631844516,"[-0.05774726076086734, 0.08068401507184778]",10,5,5,0
+asymmetric,0.5,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",skip_rate,-0.01630000000000001,"[-0.07169999999999997, 0.03659999999999998]",10,5,5,0
+asymmetric,0.5,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",expected_completion,0.01289113568698606,"[-0.0352042352462459, 0.06296267298402143]",10,5,5,0
+asymmetric,0.5,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",fallback_rate,-0.3863,"[-0.3951025, -0.3781]",10,0,10,0
+asymmetric,0.5,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.3863,"[0.3781, 0.39510249999999997]",10,10,0,0
+asymmetric,0.5,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,,,0,,,
+asymmetric,0.5,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,text,"{'handling': 'abstain', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,0.022162860210761116,"[-0.010880504256625628, 0.053946152094605404]",10,7,3,0
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",skip_rate,-0.011000000000000005,"[-0.03860000000000001, 0.016202499999999974]",10,4,6,0
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",expected_completion,0.017454286401094577,"[-0.005694376050188136, 0.03998941814827656]",10,7,3,0
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",fallback_rate,-0.3863,"[-0.3951025, -0.3781]",10,0,10,0
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,,,0,,,
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",coverage,,,0,,,
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,,,0,,,
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,,,0,,,
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",ndcg_at_10,0.011080315578916599,"[-0.03647585203396965, 0.0563313932190011]",10,5,5,0
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",skip_rate,0.005300000000000004,"[-0.02409999999999999, 0.03760249999999997]",10,5,5,0
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",expected_completion,0.004563150714108516,"[-0.028502512099229386, 0.03462501423352304]",10,5,5,0
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",abstention_rate,-0.3863,"[-0.3951025, -0.3781]",10,0,10,0
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",emotion_accuracy,,,0,,,
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",coverage,,,0,,,
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",covered_accuracy,,,0,,,
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': False}","{'handling': 'abstain', 'bandit': False}",risk_coverage_area,,,0,,,
+asymmetric,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",ndcg_at_10,0.0010651489221658705,"[-0.03801651280315032, 0.04489240127894396]",10,6,4,0
+asymmetric,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",skip_rate,0.00409999999999999,"[-0.0293, 0.03500249999999996]",10,4,6,0
+asymmetric,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",expected_completion,-0.0015413220449606358,"[-0.029157625496604757, 0.028993224704481922]",10,4,6,0
+asymmetric,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",fallback_rate,-0.3863,"[-0.3951025, -0.3781]",10,0,10,0
+asymmetric,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",abstention_rate,0.3863,"[0.3781, 0.39510249999999997]",10,10,0,0
+asymmetric,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",emotion_accuracy,,,0,,,
+asymmetric,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",ndcg_at_10,0.04112010630907931,"[0.017537439773751193, 0.0723992937573978]",10,10,0,0
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",skip_rate,-0.028199999999999992,"[-0.05299999999999998, -0.006399999999999994]",10,4,6,0
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",expected_completion,0.02959106341320173,"[0.014137596535637733, 0.050482321216635095]",10,9,1,0
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",fallback_rate,-0.3863,"[-0.3951025, -0.3781]",10,0,10,0
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",emotion_accuracy,,,0,,,
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",coverage,,,0,,,
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",covered_accuracy,,,0,,,
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'relabel', 'bandit': True}",risk_coverage_area,,,0,,,
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",ndcg_at_10,0.040054957386913434,"[0.014623865986300623, 0.06786415893678246]",10,8,2,0
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",skip_rate,-0.03229999999999998,"[-0.050099999999999964, -0.014099999999999974]",10,2,8,0
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",expected_completion,0.031132385458162364,"[0.012471214228572261, 0.05115928268905695]",10,9,1,0
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",abstention_rate,-0.3863,"[-0.3951025, -0.3781]",10,0,10,0
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",emotion_accuracy,,,0,,,
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",coverage,,,0,,,
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",covered_accuracy,,,0,,,
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'abstain', 'bandit': True}",risk_coverage_area,,,0,,,
+asymmetric,0.5,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",ndcg_at_10,0.02362658876567284,"[-0.039323890711907034, 0.08112825083979422]",10,7,3,0
+asymmetric,0.5,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",skip_rate,-0.03960000000000001,"[-0.07720000000000002, -0.0031000000000000355]",10,3,7,0
+asymmetric,0.5,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",expected_completion,0.031682777766537704,"[-0.008795174953149793, 0.07212980739395702]",10,7,3,0
+asymmetric,0.5,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",emotion_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",coverage,,,0,,,
+asymmetric,0.5,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",covered_accuracy,,,0,,,
+asymmetric,0.5,text,"{'handling': 'ungated', 'bandit': True}","{'handling': 'ungated', 'bandit': False}",risk_coverage_area,,,0,,,
+asymmetric,0.5,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",ndcg_at_10,0.05034699414202529,"[-0.028383037138385542, 0.13817686255314893]",10,5,5,0
+asymmetric,0.5,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",skip_rate,-0.05790000000000001,"[-0.12580000000000002, 0.0029000000000000024]",10,4,6,0
+asymmetric,0.5,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",expected_completion,0.05243128889507217,"[-0.003840526042192514, 0.11743350547987506]",10,5,5,0
+asymmetric,0.5,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",emotion_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,text,"{'handling': 'relabel', 'bandit': True}","{'handling': 'relabel', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",ndcg_at_10,0.040329598432346646,"[-0.01061995173169974, 0.09164984341758825]",10,6,4,0
+asymmetric,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",skip_rate,-0.03750000000000001,"[-0.06589999999999999, -0.009300000000000041]",10,2,8,0
+asymmetric,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",expected_completion,0.037998831163125475,"[0.007176369207311751, 0.07063810693078197]",10,7,3,0
+asymmetric,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",emotion_accuracy,,,0,,,
+asymmetric,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",coverage,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",covered_accuracy,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,text,"{'handling': 'abstain', 'bandit': True}","{'handling': 'abstain', 'bandit': False}",risk_coverage_area,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",ndcg_at_10,0.06930424024034348,"[-9.924985903823058e-05, 0.1356513173880475]",10,8,2,0
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",skip_rate,-0.07509999999999999,"[-0.11949999999999998, -0.03020000000000001]",10,2,8,0
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",expected_completion,0.06456806590717931,"[0.017297439693360502, 0.11343837405914199]",10,8,2,0
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",fallback_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",abstention_rate,0.0,"[0.0, 0.0]",10,0,0,10
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",emotion_accuracy,,,0,,,
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",coverage,,,0,,,
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",covered_accuracy,,,0,,,
+asymmetric,0.5,text,"{'handling': 'downweight', 'bandit': True}","{'handling': 'downweight', 'bandit': False}",risk_coverage_area,,,0,,,

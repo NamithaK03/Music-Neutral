@@ -1,0 +1,12 @@
+{
+  "archived_utc": "2026-11-14T17:03:51.554203+00:00",
+  "scope": "Local prospective archive, not external preregistration",
+  "files": {
+    "CONTROLLED_PROTOCOL.md": "f1dca7f3b9bf7e9ecb32da27ad062245240b3078c2a7de298ab0d9e7187a7091",
+    "CONTROLLED_PROTOCOL_AMENDMENT_1.md": "b553dd7cce5474b3747c9a35f07eaf661b8caee76cfd859fe06b5f35ed51103d",
+    "experiments/controlled_study_v2.py": "cc805bc3968b3aa45230f83274241a81db27e775f85d2ee409fe2afed34bb78b",
+    "sonar/controlled_study.py": "164819b25f0cd0a79e5fa79908e04b4609001a37105cfa53da06bb6ee14e9793",
+    "sonar/recommender.py": "669f30f3b11725db6038d8d6b7d77e6304a7f140f00dd4fc4cfa9e0548a02a5b",
+    "tests/test_controlled_v2.py": "e05d9f60c057c610fa2d912b46a33719d6f3bb5fd6fd37e0455ede90b7eb3e89"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "status": "exploratory; devised after inspecting v2 and MELD results",
+  "threshold": 0.6,
+  "max_abs_diff_vs_recorded_accuracy": 0.0,
+  "rows": [
+    {
+      "noise": "low",
+      "fusion": "rescaled",
+      "low_share": 0.0672,
+      "p_label_correct_low": 0.9925595238095238,
+      "p_true_neutral_low": 0.23809523809523808,
+      "delta_acc": -0.0507
+    },
+    {
+      "noise": "low",
+      "fusion": "text",
+      "low_share": 0.2397,
+      "p_label_correct_low": 0.9720483938256154,
+      "p_true_neutral_low": 0.2490613266583229,
+      "delta_acc": -0.1733
+    },
+    {
+      "noise": "high",
+      "fusion": "rescaled",
+      "low_share": 0.22,
+      "p_label_correct_low": 0.5245454545454545,
+      "p_true_neutral_low": 0.25636363636363635,
+      "delta_acc": -0.059000000000000004
+    },
+    {
+      "noise": "high",
+      "fusion": "text",
+      "low_share": 0.3773,
+      "p_label_correct_low": 0.46938775510204084,
+      "p_true_neutral_low": 0.2610654651470978,
+      "delta_acc": -0.07860000000000002
+    },
+    {
+      "noise": "asymmetric",
+      "fusion": "rescaled",
+      "low_share": 0.1989,
+      "p_label_correct_low": 0.4972347913524384,
+      "p_true_neutral_low": 0.2549019607843137,
+      "delta_acc": -0.0482
+    },
+    {
+      "noise": "asymmetric",
+      "fusion": "text",
+      "low_share": 0.3863,
+      "p_label_correct_low": 0.4908102511001812,
+      "p_true_neutral_low": 0.25653637069635,
+      "delta_acc": -0.0905
+    }
+  ]
+}

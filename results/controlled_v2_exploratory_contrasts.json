@@ -1,0 +1,4734 @@
+{
+  "status": "Exploratory, not prespecified; identified after inspecting v2 results. No new experimental runs.",
+  "reported_utc": "2026-11-14T17:48:22.901064+00:00",
+  "contrasts": [
+    {
+      "noise": "low",
+      "preference_sd": 0.0,
+      "fusion": "text",
+      "bandit": false,
+      "left": "ungated",
+      "right": "relabel",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 0.08550590581462728,
+          "ci95": [
+            0.08159527929913024,
+            0.08968181447848757
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": -0.0581,
+          "ci95": [
+            -0.06459999999999999,
+            -0.05179999999999999
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 10,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": 0.06120312931129709,
+          "ci95": [
+            0.0584033375413652,
+            0.06420621907292959
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": -0.23970000000000002,
+          "ci95": [
+            -0.25120000000000003,
+            -0.2285
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 10,
+          "zero": 0
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": 0.1733,
+          "ci95": [
+            0.16550000000000004,
+            0.18170000000000003
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "low",
+      "preference_sd": 0.0,
+      "fusion": "text",
+      "bandit": false,
+      "left": "downweight",
+      "right": "ungated",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": -0.00039826848323243347,
+          "ci95": [
+            -0.0005183765965730633,
+            -0.0002847762283817512
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 10,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": 0.0009000000000000008,
+          "ci95": [
+            -0.0015000000000000013,
+            0.003300000000000003
+          ],
+          "valid_seeds": 10,
+          "positive": 5,
+          "negative": 3,
+          "zero": 2
+        },
+        "expected_completion": {
+          "mean": -0.00015153497594357911,
+          "ci95": [
+            -0.00024868269667115107,
+            -6.729700506109688e-05
+          ],
+          "valid_seeds": 10,
+          "positive": 2,
+          "negative": 8,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "low",
+      "preference_sd": 0.0,
+      "fusion": "text",
+      "bandit": true,
+      "left": "ungated",
+      "right": "relabel",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 0.03448620168935175,
+          "ci95": [
+            -0.022543796536650503,
+            0.09223264191154604
+          ],
+          "valid_seeds": 10,
+          "positive": 6,
+          "negative": 4,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": -0.0267,
+          "ci95": [
+            -0.05230250000000001,
+            -0.0023975000000000333
+          ],
+          "valid_seeds": 10,
+          "positive": 3,
+          "negative": 7,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": 0.03608592073107782,
+          "ci95": [
+            0.009084198648629733,
+            0.06499145824739655
+          ],
+          "valid_seeds": 10,
+          "positive": 7,
+          "negative": 3,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": -0.23970000000000002,
+          "ci95": [
+            -0.25120000000000003,
+            -0.2285
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 10,
+          "zero": 0
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": 0.1733,
+          "ci95": [
+            0.16550000000000004,
+            0.18170000000000003
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "low",
+      "preference_sd": 0.0,
+      "fusion": "text",
+      "bandit": true,
+      "left": "downweight",
+      "right": "ungated",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 0.01424368253232905,
+          "ci95": [
+            -0.050722904323081554,
+            0.0919397412466941
+          ],
+          "valid_seeds": 10,
+          "positive": 4,
+          "negative": 6,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": -0.0134,
+          "ci95": [
+            -0.054299999999999994,
+            0.020000000000000007
+          ],
+          "valid_seeds": 10,
+          "positive": 7,
+          "negative": 3,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": 0.00883938725615362,
+          "ci95": [
+            -0.02502126378226564,
+            0.047429770800841944
+          ],
+          "valid_seeds": 10,
+          "positive": 4,
+          "negative": 6,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "low",
+      "preference_sd": 0.0,
+      "fusion": "rescaled",
+      "bandit": false,
+      "left": "ungated",
+      "right": "relabel",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 0.024961236945766664,
+          "ci95": [
+            0.02273193572527243,
+            0.02723202537763745
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": -0.0173,
+          "ci95": [
+            -0.022,
+            -0.013199999999999979
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 10,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": 0.017862630165307126,
+          "ci95": [
+            0.016322240087239388,
+            0.0193991390725037
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": -0.06720000000000001,
+          "ci95": [
+            -0.07210000000000001,
+            -0.0629
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 10,
+          "zero": 0
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": 0.05070000000000004,
+          "ci95": [
+            0.04630000000000004,
+            0.055002499999999996
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "low",
+      "preference_sd": 0.0,
+      "fusion": "rescaled",
+      "bandit": false,
+      "left": "downweight",
+      "right": "ungated",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 5.262785335125031e-06,
+          "ci95": [
+            -0.0001851432121779134,
+            0.00019423338235454498
+          ],
+          "valid_seeds": 10,
+          "positive": 3,
+          "negative": 7,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": 0.0017000000000000014,
+          "ci95": [
+            0.0006000000000000005,
+            0.003100000000000003
+          ],
+          "valid_seeds": 10,
+          "positive": 6,
+          "negative": 0,
+          "zero": 4
+        },
+        "expected_completion": {
+          "mean": 6.0705106565317465e-05,
+          "ci95": [
+            -6.495832518228495e-05,
+            0.00018991320980535435
+          ],
+          "valid_seeds": 10,
+          "positive": 3,
+          "negative": 6,
+          "zero": 1
+        },
+        "fallback_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "low",
+      "preference_sd": 0.0,
+      "fusion": "rescaled",
+      "bandit": true,
+      "left": "ungated",
+      "right": "relabel",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 0.021309139913780417,
+          "ci95": [
+            -0.028204351218531345,
+            0.06500530120393676
+          ],
+          "valid_seeds": 10,
+          "positive": 8,
+          "negative": 2,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": -0.019700000000000013,
+          "ci95": [
+            -0.04790000000000002,
+            0.010899999999999998
+          ],
+          "valid_seeds": 10,
+          "positive": 2,
+          "negative": 8,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": 0.017309614138150704,
+          "ci95": [
+            -0.006288045213660485,
+            0.03928924154551379
+          ],
+          "valid_seeds": 10,
+          "positive": 8,
+          "negative": 2,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": -0.06720000000000001,
+          "ci95": [
+            -0.07210000000000001,
+            -0.0629
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 10,
+          "zero": 0
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": 0.05070000000000004,
+          "ci95": [
+            0.04630000000000004,
+            0.055002499999999996
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "low",
+      "preference_sd": 0.0,
+      "fusion": "rescaled",
+      "bandit": true,
+      "left": "downweight",
+      "right": "ungated",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": -0.03866024993816244,
+          "ci95": [
+            -0.0924978096460857,
+            0.021634263151840246
+          ],
+          "valid_seeds": 10,
+          "positive": 3,
+          "negative": 7,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": 0.013400000000000006,
+          "ci95": [
+            -0.01909999999999999,
+            0.039999999999999994
+          ],
+          "valid_seeds": 10,
+          "positive": 7,
+          "negative": 3,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": -0.018338032775013946,
+          "ci95": [
+            -0.045698922731625284,
+            0.013425232991932283
+          ],
+          "valid_seeds": 10,
+          "positive": 3,
+          "negative": 7,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "low",
+      "preference_sd": 0.5,
+      "fusion": "text",
+      "bandit": false,
+      "left": "ungated",
+      "right": "relabel",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 0.06016020262738925,
+          "ci95": [
+            0.03876685061858853,
+            0.08125769997246524
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": -0.03910000000000001,
+          "ci95": [
+            -0.0558,
+            -0.023500000000000014
+          ],
+          "valid_seeds": 10,
+          "positive": 1,
+          "negative": 9,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": 0.04520901160361422,
+          "ci95": [
+            0.03011345680051117,
+            0.060733989744263396
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": -0.23970000000000002,
+          "ci95": [
+            -0.25120000000000003,
+            -0.2285
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 10,
+          "zero": 0
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": 0.1733,
+          "ci95": [
+            0.16550000000000004,
+            0.18170000000000003
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "low",
+      "preference_sd": 0.5,
+      "fusion": "text",
+      "bandit": false,
+      "left": "downweight",
+      "right": "ungated",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": -0.00033694462499828104,
+          "ci95": [
+            -0.0004824649172426909,
+            -0.00020155921213736217
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 10,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": 0.00020000000000000017,
+          "ci95": [
+            -0.001200000000000001,
+            0.0016000000000000014
+          ],
+          "valid_seeds": 10,
+          "positive": 5,
+          "negative": 4,
+          "zero": 1
+        },
+        "expected_completion": {
+          "mean": -0.00013182496389173016,
+          "ci95": [
+            -0.0002674201158509737,
+            -2.1979072113104836e-05
+          ],
+          "valid_seeds": 10,
+          "positive": 2,
+          "negative": 8,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "low",
+      "preference_sd": 0.5,
+      "fusion": "text",
+      "bandit": true,
+      "left": "ungated",
+      "right": "relabel",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 0.003805476430180754,
+          "ci95": [
+            -0.03274377661551995,
+            0.03133410370957739
+          ],
+          "valid_seeds": 10,
+          "positive": 8,
+          "negative": 2,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": -0.012400000000000005,
+          "ci95": [
+            -0.03470250000000002,
+            0.014899999999999988
+          ],
+          "valid_seeds": 10,
+          "positive": 2,
+          "negative": 8,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": 0.011406465264646976,
+          "ci95": [
+            -0.014151646916012593,
+            0.030045626125826924
+          ],
+          "valid_seeds": 10,
+          "positive": 9,
+          "negative": 1,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": -0.23970000000000002,
+          "ci95": [
+            -0.25120000000000003,
+            -0.2285
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 10,
+          "zero": 0
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": 0.1733,
+          "ci95": [
+            0.16550000000000004,
+            0.18170000000000003
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "low",
+      "preference_sd": 0.5,
+      "fusion": "text",
+      "bandit": true,
+      "left": "downweight",
+      "right": "ungated",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": -0.0017323248215621034,
+          "ci95": [
+            -0.016329517122767364,
+            0.015666482249256816
+          ],
+          "valid_seeds": 10,
+          "positive": 4,
+          "negative": 6,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": -0.0004999999999999976,
+          "ci95": [
+            -0.007299999999999998,
+            0.005300000000000004
+          ],
+          "valid_seeds": 10,
+          "positive": 4,
+          "negative": 5,
+          "zero": 1
+        },
+        "expected_completion": {
+          "mean": 0.0028915723748513256,
+          "ci95": [
+            -0.0031872114458667737,
+            0.012400120688473612
+          ],
+          "valid_seeds": 10,
+          "positive": 5,
+          "negative": 5,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "low",
+      "preference_sd": 0.5,
+      "fusion": "rescaled",
+      "bandit": false,
+      "left": "ungated",
+      "right": "relabel",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 0.018464853994668295,
+          "ci95": [
+            0.011495159885081823,
+            0.02612871720799868
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": -0.0132,
+          "ci95": [
+            -0.0187,
+            -0.008300000000000005
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 10,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": 0.013732822512151882,
+          "ci95": [
+            0.008794745345450427,
+            0.019245768823292233
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": -0.06720000000000001,
+          "ci95": [
+            -0.07210000000000001,
+            -0.0629
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 10,
+          "zero": 0
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": 0.05070000000000004,
+          "ci95": [
+            0.04630000000000004,
+            0.055002499999999996
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "low",
+      "preference_sd": 0.5,
+      "fusion": "rescaled",
+      "bandit": false,
+      "left": "downweight",
+      "right": "ungated",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 4.7222526146784015e-05,
+          "ci95": [
+            -8.629312190691351e-05,
+            0.00020667147701042456
+          ],
+          "valid_seeds": 10,
+          "positive": 3,
+          "negative": 7,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": 0.0010000000000000009,
+          "ci95": [
+            0.00030000000000000024,
+            0.0018000000000000017
+          ],
+          "valid_seeds": 10,
+          "positive": 5,
+          "negative": 0,
+          "zero": 5
+        },
+        "expected_completion": {
+          "mean": 9.684427150093988e-05,
+          "ci95": [
+            -9.033880510427579e-06,
+            0.00022024194191416573
+          ],
+          "valid_seeds": 10,
+          "positive": 3,
+          "negative": 6,
+          "zero": 1
+        },
+        "fallback_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "low",
+      "preference_sd": 0.5,
+      "fusion": "rescaled",
+      "bandit": true,
+      "left": "ungated",
+      "right": "relabel",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 0.0066680192813626474,
+          "ci95": [
+            -0.010090479640625639,
+            0.022302323500811592
+          ],
+          "valid_seeds": 10,
+          "positive": 8,
+          "negative": 2,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": -0.008200000000000004,
+          "ci95": [
+            -0.0164,
+            -0.00020000000000001129
+          ],
+          "valid_seeds": 10,
+          "positive": 2,
+          "negative": 8,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": 0.007358400744704385,
+          "ci95": [
+            -0.0011459044006959735,
+            0.015711529494797646
+          ],
+          "valid_seeds": 10,
+          "positive": 8,
+          "negative": 2,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": -0.06720000000000001,
+          "ci95": [
+            -0.07210000000000001,
+            -0.0629
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 10,
+          "zero": 0
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": 0.05070000000000004,
+          "ci95": [
+            0.04630000000000004,
+            0.055002499999999996
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "low",
+      "preference_sd": 0.5,
+      "fusion": "rescaled",
+      "bandit": true,
+      "left": "downweight",
+      "right": "ungated",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": -0.0023088144406148924,
+          "ci95": [
+            -0.02437090443654099,
+            0.01927507688907629
+          ],
+          "valid_seeds": 10,
+          "positive": 5,
+          "negative": 5,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": 0.0034000000000000002,
+          "ci95": [
+            -0.0071999999999999955,
+            0.013699999999999993
+          ],
+          "valid_seeds": 10,
+          "positive": 5,
+          "negative": 5,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": 0.001137778840041448,
+          "ci95": [
+            -0.010402734103231242,
+            0.013500589391346959
+          ],
+          "valid_seeds": 10,
+          "positive": 5,
+          "negative": 5,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "high",
+      "preference_sd": 0.0,
+      "fusion": "text",
+      "bandit": false,
+      "left": "ungated",
+      "right": "relabel",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 0.038748331170557426,
+          "ci95": [
+            0.03359709910471146,
+            0.043334678890473544
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": -0.025199999999999993,
+          "ci95": [
+            -0.0315,
+            -0.019100000000000006
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 10,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": 0.02775560963132645,
+          "ci95": [
+            0.024134492579935916,
+            0.031091738746856147
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": -0.37729999999999997,
+          "ci95": [
+            -0.38639999999999997,
+            -0.369
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 10,
+          "zero": 0
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": 0.07860000000000003,
+          "ci95": [
+            0.06840000000000004,
+            0.08800000000000002
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "high",
+      "preference_sd": 0.0,
+      "fusion": "text",
+      "bandit": false,
+      "left": "downweight",
+      "right": "ungated",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 0.0003136886890788726,
+          "ci95": [
+            -0.0001931246552551241,
+            0.0007651179160995339
+          ],
+          "valid_seeds": 10,
+          "positive": 7,
+          "negative": 3,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": 0.000500000000000006,
+          "ci95": [
+            -0.003499999999999992,
+            0.004602499999999979
+          ],
+          "valid_seeds": 10,
+          "positive": 5,
+          "negative": 5,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": -3.912406428259185e-05,
+          "ci95": [
+            -0.00028934627506813635,
+            0.0002531034730807735
+          ],
+          "valid_seeds": 10,
+          "positive": 4,
+          "negative": 6,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "high",
+      "preference_sd": 0.0,
+      "fusion": "text",
+      "bandit": true,
+      "left": "ungated",
+      "right": "relabel",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 0.041134244580606064,
+          "ci95": [
+            0.012559380589144593,
+            0.07026404933966482
+          ],
+          "valid_seeds": 10,
+          "positive": 8,
+          "negative": 2,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": -0.03150000000000001,
+          "ci95": [
+            -0.0521,
+            -0.01009750000000003
+          ],
+          "valid_seeds": 10,
+          "positive": 2,
+          "negative": 8,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": 0.0295096448954598,
+          "ci95": [
+            0.01398428690019021,
+            0.045190743583588475
+          ],
+          "valid_seeds": 10,
+          "positive": 9,
+          "negative": 1,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": -0.37729999999999997,
+          "ci95": [
+            -0.38639999999999997,
+            -0.369
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 10,
+          "zero": 0
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": 0.07860000000000003,
+          "ci95": [
+            0.06840000000000004,
+            0.08800000000000002
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "high",
+      "preference_sd": 0.0,
+      "fusion": "text",
+      "bandit": true,
+      "left": "downweight",
+      "right": "ungated",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": -0.012121352701841902,
+          "ci95": [
+            -0.03402263478581018,
+            0.012812175065956485
+          ],
+          "valid_seeds": 10,
+          "positive": 4,
+          "negative": 6,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": 0.008499999999999997,
+          "ci95": [
+            -0.0071000000000000065,
+            0.025700000000000008
+          ],
+          "valid_seeds": 10,
+          "positive": 5,
+          "negative": 4,
+          "zero": 1
+        },
+        "expected_completion": {
+          "mean": -0.008170594121226383,
+          "ci95": [
+            -0.022896540683640235,
+            0.007814158695441253
+          ],
+          "valid_seeds": 10,
+          "positive": 4,
+          "negative": 6,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "high",
+      "preference_sd": 0.0,
+      "fusion": "rescaled",
+      "bandit": false,
+      "left": "ungated",
+      "right": "relabel",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 0.02908347649125469,
+          "ci95": [
+            0.02455719307114591,
+            0.03340935056555757
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": -0.021900000000000003,
+          "ci95": [
+            -0.0305,
+            -0.011999999999999993
+          ],
+          "valid_seeds": 10,
+          "positive": 1,
+          "negative": 9,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": 0.020887933021175163,
+          "ci95": [
+            0.017637352266893117,
+            0.02403158671309483
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": -0.22000000000000003,
+          "ci95": [
+            -0.22490000000000002,
+            -0.2151
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 10,
+          "zero": 0
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": 0.05900000000000003,
+          "ci95": [
+            0.04990000000000002,
+            0.06780000000000003
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "high",
+      "preference_sd": 0.0,
+      "fusion": "rescaled",
+      "bandit": false,
+      "left": "downweight",
+      "right": "ungated",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 0.010172922572297117,
+          "ci95": [
+            0.00906782092998568,
+            0.011349897668613874
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": -0.004600000000000004,
+          "ci95": [
+            -0.007600000000000007,
+            -0.001200000000000001
+          ],
+          "valid_seeds": 10,
+          "positive": 1,
+          "negative": 8,
+          "zero": 1
+        },
+        "expected_completion": {
+          "mean": 0.0071430529103676975,
+          "ci95": [
+            0.006429494503312352,
+            0.00794462067446807
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "high",
+      "preference_sd": 0.0,
+      "fusion": "rescaled",
+      "bandit": true,
+      "left": "ungated",
+      "right": "relabel",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 0.034150710407815844,
+          "ci95": [
+            0.001395030269851853,
+            0.06835533430590253
+          ],
+          "valid_seeds": 10,
+          "positive": 7,
+          "negative": 3,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": -0.02139999999999998,
+          "ci95": [
+            -0.043802499999999966,
+            -0.006099999999999989
+          ],
+          "valid_seeds": 10,
+          "positive": 1,
+          "negative": 9,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": 0.02566673463391103,
+          "ci95": [
+            0.012639197044845606,
+            0.04066820068012286
+          ],
+          "valid_seeds": 10,
+          "positive": 9,
+          "negative": 1,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": -0.22000000000000003,
+          "ci95": [
+            -0.22490000000000002,
+            -0.2151
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 10,
+          "zero": 0
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": 0.05900000000000003,
+          "ci95": [
+            0.04990000000000002,
+            0.06780000000000003
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "high",
+      "preference_sd": 0.0,
+      "fusion": "rescaled",
+      "bandit": true,
+      "left": "downweight",
+      "right": "ungated",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": -0.006218219119251767,
+          "ci95": [
+            -0.02613023797185924,
+            0.014080042798598315
+          ],
+          "valid_seeds": 10,
+          "positive": 3,
+          "negative": 7,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": 0.010199999999999992,
+          "ci95": [
+            -0.002799999999999997,
+            0.022899999999999986
+          ],
+          "valid_seeds": 10,
+          "positive": 6,
+          "negative": 4,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": -0.004011142315253524,
+          "ci95": [
+            -0.012874830877441892,
+            0.005552042794371128
+          ],
+          "valid_seeds": 10,
+          "positive": 3,
+          "negative": 7,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "high",
+      "preference_sd": 0.5,
+      "fusion": "text",
+      "bandit": false,
+      "left": "ungated",
+      "right": "relabel",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 0.01767862895061647,
+          "ci95": [
+            -0.014837816723729597,
+            0.049220403371822936
+          ],
+          "valid_seeds": 10,
+          "positive": 7,
+          "negative": 3,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": -0.011400000000000004,
+          "ci95": [
+            -0.037900000000000024,
+            0.015499999999999976
+          ],
+          "valid_seeds": 10,
+          "positive": 3,
+          "negative": 6,
+          "zero": 1
+        },
+        "expected_completion": {
+          "mean": 0.014732465534316879,
+          "ci95": [
+            -0.008095909670698042,
+            0.03730911946968524
+          ],
+          "valid_seeds": 10,
+          "positive": 7,
+          "negative": 3,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": -0.37729999999999997,
+          "ci95": [
+            -0.38639999999999997,
+            -0.369
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 10,
+          "zero": 0
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": 0.07860000000000003,
+          "ci95": [
+            0.06840000000000004,
+            0.08800000000000002
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "high",
+      "preference_sd": 0.5,
+      "fusion": "text",
+      "bandit": false,
+      "left": "downweight",
+      "right": "ungated",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": -0.00014872174999571718,
+          "ci95": [
+            -0.0009389497048270071,
+            0.0005336061512441321
+          ],
+          "valid_seeds": 10,
+          "positive": 5,
+          "negative": 5,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": 0.002599999999999997,
+          "ci95": [
+            -0.0009999999999999955,
+            0.006099999999999983
+          ],
+          "valid_seeds": 10,
+          "positive": 6,
+          "negative": 4,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": -0.0003643009080872395,
+          "ci95": [
+            -0.0008793879910496842,
+            0.00011633912801628599
+          ],
+          "valid_seeds": 10,
+          "positive": 4,
+          "negative": 6,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "high",
+      "preference_sd": 0.5,
+      "fusion": "text",
+      "bandit": true,
+      "left": "ungated",
+      "right": "relabel",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": -0.002183498997533395,
+          "ci95": [
+            -0.07227183361493743,
+            0.0813031678938322
+          ],
+          "valid_seeds": 10,
+          "positive": 4,
+          "negative": 6,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": -0.007799999999999996,
+          "ci95": [
+            -0.062499999999999965,
+            0.03820249999999997
+          ],
+          "valid_seeds": 10,
+          "positive": 5,
+          "negative": 5,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": -0.0017462029649539413,
+          "ci95": [
+            -0.04847211505738703,
+            0.051479560534936915
+          ],
+          "valid_seeds": 10,
+          "positive": 4,
+          "negative": 6,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": -0.37729999999999997,
+          "ci95": [
+            -0.38639999999999997,
+            -0.369
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 10,
+          "zero": 0
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": 0.07860000000000003,
+          "ci95": [
+            0.06840000000000004,
+            0.08800000000000002
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "high",
+      "preference_sd": 0.5,
+      "fusion": "text",
+      "bandit": true,
+      "left": "downweight",
+      "right": "ungated",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 0.051052824903437856,
+          "ci95": [
+            0.0010258107869161055,
+            0.10801746616763272
+          ],
+          "valid_seeds": 10,
+          "positive": 7,
+          "negative": 3,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": -0.031100000000000006,
+          "ci95": [
+            -0.06370000000000002,
+            0.0014024999999999834
+          ],
+          "valid_seeds": 10,
+          "positive": 4,
+          "negative": 6,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": 0.03466516114796723,
+          "ci95": [
+            0.0009086273485812113,
+            0.0731503724689698
+          ],
+          "valid_seeds": 10,
+          "positive": 7,
+          "negative": 3,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "high",
+      "preference_sd": 0.5,
+      "fusion": "rescaled",
+      "bandit": false,
+      "left": "ungated",
+      "right": "relabel",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 0.01580708821376019,
+          "ci95": [
+            -0.005652920768559529,
+            0.03589328030193432
+          ],
+          "valid_seeds": 10,
+          "positive": 7,
+          "negative": 3,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": -0.012799999999999995,
+          "ci95": [
+            -0.03420000000000001,
+            0.007800000000000018
+          ],
+          "valid_seeds": 10,
+          "positive": 3,
+          "negative": 7,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": 0.012490774453864827,
+          "ci95": [
+            -0.0026414283686796813,
+            0.026811314054561854
+          ],
+          "valid_seeds": 10,
+          "positive": 7,
+          "negative": 3,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": -0.22000000000000003,
+          "ci95": [
+            -0.22490000000000002,
+            -0.2151
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 10,
+          "zero": 0
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": 0.05900000000000003,
+          "ci95": [
+            0.04990000000000002,
+            0.06780000000000003
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "high",
+      "preference_sd": 0.5,
+      "fusion": "rescaled",
+      "bandit": false,
+      "left": "downweight",
+      "right": "ungated",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 0.008371892524235003,
+          "ci95": [
+            0.007350978468720616,
+            0.009344396630711146
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": -0.005100000000000005,
+          "ci95": [
+            -0.008600000000000007,
+            -0.0020000000000000018
+          ],
+          "valid_seeds": 10,
+          "positive": 1,
+          "negative": 8,
+          "zero": 1
+        },
+        "expected_completion": {
+          "mean": 0.006023325720883899,
+          "ci95": [
+            0.005247561685324451,
+            0.006968771215374865
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "high",
+      "preference_sd": 0.5,
+      "fusion": "rescaled",
+      "bandit": true,
+      "left": "ungated",
+      "right": "relabel",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": -0.03854976809217521,
+          "ci95": [
+            -0.07591651046639895,
+            -0.007726624478891292
+          ],
+          "valid_seeds": 10,
+          "positive": 2,
+          "negative": 8,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": 0.01679999999999999,
+          "ci95": [
+            -0.0008000000000000035,
+            0.03679999999999998
+          ],
+          "valid_seeds": 10,
+          "positive": 6,
+          "negative": 4,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": -0.021641231970613788,
+          "ci95": [
+            -0.04306346813924546,
+            -0.00339296548519627
+          ],
+          "valid_seeds": 10,
+          "positive": 4,
+          "negative": 6,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": -0.22000000000000003,
+          "ci95": [
+            -0.22490000000000002,
+            -0.2151
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 10,
+          "zero": 0
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": 0.05900000000000003,
+          "ci95": [
+            0.04990000000000002,
+            0.06780000000000003
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "high",
+      "preference_sd": 0.5,
+      "fusion": "rescaled",
+      "bandit": true,
+      "left": "downweight",
+      "right": "ungated",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 0.04050601295983305,
+          "ci95": [
+            -0.00014452608990348683,
+            0.07966664186949059
+          ],
+          "valid_seeds": 10,
+          "positive": 9,
+          "negative": 1,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": -0.0192,
+          "ci95": [
+            -0.039,
+            0.005599999999999999
+          ],
+          "valid_seeds": 10,
+          "positive": 2,
+          "negative": 8,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": 0.02785534818752623,
+          "ci95": [
+            0.0008851959959113991,
+            0.051236374167603085
+          ],
+          "valid_seeds": 10,
+          "positive": 9,
+          "negative": 1,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "asymmetric",
+      "preference_sd": 0.0,
+      "fusion": "text",
+      "bandit": false,
+      "left": "ungated",
+      "right": "relabel",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 0.044609734322015294,
+          "ci95": [
+            0.03955232907928915,
+            0.04940676463669109
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": -0.029799999999999993,
+          "ci95": [
+            -0.03770250000000001,
+            -0.02229999999999998
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 10,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": 0.031938177418030365,
+          "ci95": [
+            0.028359660548618753,
+            0.03541493520792897
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": -0.3863,
+          "ci95": [
+            -0.3951025,
+            -0.3781
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 10,
+          "zero": 0
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": 0.09050000000000005,
+          "ci95": [
+            0.08049750000000001,
+            0.10030000000000006
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "asymmetric",
+      "preference_sd": 0.0,
+      "fusion": "text",
+      "bandit": false,
+      "left": "downweight",
+      "right": "ungated",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 0.0007764694654383009,
+          "ci95": [
+            0.00024730027263084595,
+            0.001270938341655154
+          ],
+          "valid_seeds": 10,
+          "positive": 7,
+          "negative": 3,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": 0.002400000000000002,
+          "ci95": [
+            -0.0030000000000000027,
+            0.007500000000000007
+          ],
+          "valid_seeds": 10,
+          "positive": 5,
+          "negative": 4,
+          "zero": 1
+        },
+        "expected_completion": {
+          "mean": 0.000357932368209124,
+          "ci95": [
+            3.90451823975126e-06,
+            0.000687522975085754
+          ],
+          "valid_seeds": 10,
+          "positive": 6,
+          "negative": 4,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "asymmetric",
+      "preference_sd": 0.0,
+      "fusion": "text",
+      "bandit": true,
+      "left": "ungated",
+      "right": "relabel",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 0.026529595071943957,
+          "ci95": [
+            0.0013534284710226385,
+            0.05292832982124295
+          ],
+          "valid_seeds": 10,
+          "positive": 7,
+          "negative": 3,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": -0.017799999999999993,
+          "ci95": [
+            -0.041402499999999995,
+            0.0008000000000000062
+          ],
+          "valid_seeds": 10,
+          "positive": 4,
+          "negative": 6,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": 0.022165823885307596,
+          "ci95": [
+            0.006695722363967449,
+            0.039124243218873665
+          ],
+          "valid_seeds": 10,
+          "positive": 7,
+          "negative": 3,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": -0.3863,
+          "ci95": [
+            -0.3951025,
+            -0.3781
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 10,
+          "zero": 0
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": 0.09050000000000005,
+          "ci95": [
+            0.08049750000000001,
+            0.10030000000000006
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "asymmetric",
+      "preference_sd": 0.0,
+      "fusion": "text",
+      "bandit": true,
+      "left": "downweight",
+      "right": "ungated",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": -0.018366311768778155,
+          "ci95": [
+            -0.042561983813171646,
+            0.006441274022431777
+          ],
+          "valid_seeds": 10,
+          "positive": 3,
+          "negative": 7,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": 0.007600000000000001,
+          "ci95": [
+            -0.0071000000000000065,
+            0.02430000000000001
+          ],
+          "valid_seeds": 10,
+          "positive": 5,
+          "negative": 5,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": -0.01294195652932656,
+          "ci95": [
+            -0.026706270689497772,
+            0.000830419665313497
+          ],
+          "valid_seeds": 10,
+          "positive": 2,
+          "negative": 8,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "asymmetric",
+      "preference_sd": 0.0,
+      "fusion": "rescaled",
+      "bandit": false,
+      "left": "ungated",
+      "right": "relabel",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 0.023764056618533747,
+          "ci95": [
+            0.01974030630447326,
+            0.02723603696752788
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": -0.018700000000000012,
+          "ci95": [
+            -0.02560000000000001,
+            -0.011500000000000005
+          ],
+          "valid_seeds": 10,
+          "positive": 1,
+          "negative": 9,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": 0.017059068634876207,
+          "ci95": [
+            0.01420757522871129,
+            0.019510147135933045
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": -0.1989,
+          "ci95": [
+            -0.2062,
+            -0.1908
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 10,
+          "zero": 0
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": 0.048199999999999944,
+          "ci95": [
+            0.040099999999999955,
+            0.05509999999999994
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "asymmetric",
+      "preference_sd": 0.0,
+      "fusion": "rescaled",
+      "bandit": false,
+      "left": "downweight",
+      "right": "ungated",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 0.009022140683411516,
+          "ci95": [
+            0.007584280121828361,
+            0.010318220541208425
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": -0.0047000000000000045,
+          "ci95": [
+            -0.008200000000000008,
+            -0.0006000000000000005
+          ],
+          "valid_seeds": 10,
+          "positive": 1,
+          "negative": 8,
+          "zero": 1
+        },
+        "expected_completion": {
+          "mean": 0.006297044266040108,
+          "ci95": [
+            0.005225758906052973,
+            0.007259539550197375
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "asymmetric",
+      "preference_sd": 0.0,
+      "fusion": "rescaled",
+      "bandit": true,
+      "left": "ungated",
+      "right": "relabel",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 0.020545523391302167,
+          "ci95": [
+            -0.015804438656393794,
+            0.05811313107397542
+          ],
+          "valid_seeds": 10,
+          "positive": 8,
+          "negative": 2,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": -0.016199999999999992,
+          "ci95": [
+            -0.043902500000000004,
+            0.010500000000000015
+          ],
+          "valid_seeds": 10,
+          "positive": 4,
+          "negative": 6,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": 0.01593414592914067,
+          "ci95": [
+            -0.006039601889207118,
+            0.03875286712939305
+          ],
+          "valid_seeds": 10,
+          "positive": 6,
+          "negative": 4,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": -0.1989,
+          "ci95": [
+            -0.2062,
+            -0.1908
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 10,
+          "zero": 0
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": 0.048199999999999944,
+          "ci95": [
+            0.040099999999999955,
+            0.05509999999999994
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "asymmetric",
+      "preference_sd": 0.0,
+      "fusion": "rescaled",
+      "bandit": true,
+      "left": "downweight",
+      "right": "ungated",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 0.013939048737795567,
+          "ci95": [
+            -0.012139929433080135,
+            0.040808300405347206
+          ],
+          "valid_seeds": 10,
+          "positive": 6,
+          "negative": 4,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": -0.0020000000000000183,
+          "ci95": [
+            -0.01650000000000002,
+            0.011699999999999983
+          ],
+          "valid_seeds": 10,
+          "positive": 5,
+          "negative": 5,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": 0.005850260387570199,
+          "ci95": [
+            -0.006545790137120339,
+            0.01835968455521126
+          ],
+          "valid_seeds": 10,
+          "positive": 6,
+          "negative": 4,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "asymmetric",
+      "preference_sd": 0.5,
+      "fusion": "text",
+      "bandit": false,
+      "left": "ungated",
+      "right": "relabel",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 0.022104380415426096,
+          "ci95": [
+            -0.011021875382407486,
+            0.05428330799789511
+          ],
+          "valid_seeds": 10,
+          "positive": 7,
+          "negative": 3,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": -0.014400000000000001,
+          "ci95": [
+            -0.0422,
+            0.013102499999999968
+          ],
+          "valid_seeds": 10,
+          "positive": 3,
+          "negative": 7,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": 0.017609041571306633,
+          "ci95": [
+            -0.005529841293521981,
+            0.040431699358854205
+          ],
+          "valid_seeds": 10,
+          "positive": 7,
+          "negative": 3,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": -0.3863,
+          "ci95": [
+            -0.3951025,
+            -0.3781
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 10,
+          "zero": 0
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": 0.09050000000000005,
+          "ci95": [
+            0.08049750000000001,
+            0.10030000000000006
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "asymmetric",
+      "preference_sd": 0.5,
+      "fusion": "text",
+      "bandit": false,
+      "left": "downweight",
+      "right": "ungated",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 5.8479795335020235e-05,
+          "ci95": [
+            -0.0008228088477598347,
+            0.0008726642639304176
+          ],
+          "valid_seeds": 10,
+          "positive": 5,
+          "negative": 5,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": 0.0033999999999999976,
+          "ci95": [
+            -0.0006000000000000005,
+            0.007400000000000001
+          ],
+          "valid_seeds": 10,
+          "positive": 6,
+          "negative": 3,
+          "zero": 1
+        },
+        "expected_completion": {
+          "mean": -0.00015475517021205644,
+          "ci95": [
+            -0.0007287677244236819,
+            0.00036647968036504323
+          ],
+          "valid_seeds": 10,
+          "positive": 5,
+          "negative": 5,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "asymmetric",
+      "preference_sd": 0.5,
+      "fusion": "text",
+      "bandit": true,
+      "left": "ungated",
+      "right": "relabel",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": -0.004616024960926357,
+          "ci95": [
+            -0.031293712791925894,
+            0.022954891854891378
+          ],
+          "valid_seeds": 10,
+          "positive": 5,
+          "negative": 5,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": 0.003899999999999995,
+          "ci95": [
+            -0.015899999999999997,
+            0.023999999999999994
+          ],
+          "valid_seeds": 10,
+          "positive": 5,
+          "negative": 5,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": -0.003139469557227831,
+          "ci95": [
+            -0.021201758246379956,
+            0.015029326743396866
+          ],
+          "valid_seeds": 10,
+          "positive": 5,
+          "negative": 5,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": -0.3863,
+          "ci95": [
+            -0.3951025,
+            -0.3781
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 10,
+          "zero": 0
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": 0.09050000000000005,
+          "ci95": [
+            0.08049750000000001,
+            0.10030000000000006
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "asymmetric",
+      "preference_sd": 0.5,
+      "fusion": "text",
+      "bandit": true,
+      "left": "downweight",
+      "right": "ungated",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 0.04573613127000566,
+          "ci95": [
+            0.01222558523690346,
+            0.07951724076444268
+          ],
+          "valid_seeds": 10,
+          "positive": 7,
+          "negative": 3,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": -0.03209999999999998,
+          "ci95": [
+            -0.05570249999999999,
+            -0.009000000000000003
+          ],
+          "valid_seeds": 10,
+          "positive": 2,
+          "negative": 8,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": 0.03273053297042956,
+          "ci95": [
+            0.008404269769546465,
+            0.056473990767067744
+          ],
+          "valid_seeds": 10,
+          "positive": 8,
+          "negative": 2,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "asymmetric",
+      "preference_sd": 0.5,
+      "fusion": "rescaled",
+      "bandit": false,
+      "left": "ungated",
+      "right": "relabel",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 0.013219850849414905,
+          "ci95": [
+            -0.006325519956293745,
+            0.03173452664698733
+          ],
+          "valid_seeds": 10,
+          "positive": 7,
+          "negative": 3,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": -0.00869999999999999,
+          "ci95": [
+            -0.027602499999999995,
+            0.008800000000000007
+          ],
+          "valid_seeds": 10,
+          "positive": 4,
+          "negative": 6,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": 0.010424611765079672,
+          "ci95": [
+            -0.0037403130490314828,
+            0.02386965028864805
+          ],
+          "valid_seeds": 10,
+          "positive": 7,
+          "negative": 3,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": -0.1989,
+          "ci95": [
+            -0.2062,
+            -0.1908
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 10,
+          "zero": 0
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": 0.048199999999999944,
+          "ci95": [
+            0.040099999999999955,
+            0.05509999999999994
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "asymmetric",
+      "preference_sd": 0.5,
+      "fusion": "rescaled",
+      "bandit": false,
+      "left": "downweight",
+      "right": "ungated",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 0.0072747025157410385,
+          "ci95": [
+            0.005526862298391439,
+            0.00916146438071421
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": -0.0029000000000000024,
+          "ci95": [
+            -0.006000000000000005,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 2,
+          "negative": 7,
+          "zero": 1
+        },
+        "expected_completion": {
+          "mean": 0.0051609736493259785,
+          "ci95": [
+            0.003909999648506013,
+            0.006333398103818583
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "asymmetric",
+      "preference_sd": 0.5,
+      "fusion": "rescaled",
+      "bandit": true,
+      "left": "ungated",
+      "right": "relabel",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": 0.011638052145922362,
+          "ci95": [
+            -0.006361448953638667,
+            0.029077306403828617
+          ],
+          "valid_seeds": 10,
+          "positive": 6,
+          "negative": 4,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": -0.0040000000000000036,
+          "ci95": [
+            -0.016700000000000003,
+            0.010702499999999962
+          ],
+          "valid_seeds": 10,
+          "positive": 2,
+          "negative": 8,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": 0.011151632954049839,
+          "ci95": [
+            -0.0010633856020672739,
+            0.023084069681828568
+          ],
+          "valid_seeds": 10,
+          "positive": 7,
+          "negative": 3,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": -0.1989,
+          "ci95": [
+            -0.2062,
+            -0.1908
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 10,
+          "zero": 0
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": 0.048199999999999944,
+          "ci95": [
+            0.040099999999999955,
+            0.05509999999999994
+          ],
+          "valid_seeds": 10,
+          "positive": 10,
+          "negative": 0,
+          "zero": 0
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    },
+    {
+      "noise": "asymmetric",
+      "preference_sd": 0.5,
+      "fusion": "rescaled",
+      "bandit": true,
+      "left": "downweight",
+      "right": "ungated",
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": -0.006866161043375052,
+          "ci95": [
+            -0.02041743916740179,
+            0.007048581132784013
+          ],
+          "valid_seeds": 10,
+          "positive": 4,
+          "negative": 6,
+          "zero": 0
+        },
+        "skip_rate": {
+          "mean": 0.007599999999999996,
+          "ci95": [
+            -0.008200000000000018,
+            0.022299999999999983
+          ],
+          "valid_seeds": 10,
+          "positive": 8,
+          "negative": 2,
+          "zero": 0
+        },
+        "expected_completion": {
+          "mean": -0.0031467898815533578,
+          "ci95": [
+            -0.012103987075565472,
+            0.006527070266490807
+          ],
+          "valid_seeds": 10,
+          "positive": 4,
+          "negative": 6,
+          "zero": 0
+        },
+        "fallback_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "abstention_rate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_seeds": 10,
+          "positive": 0,
+          "negative": 0,
+          "zero": 10
+        },
+        "emotion_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "coverage": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "covered_accuracy": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        },
+        "risk_coverage_area": {
+          "mean": null,
+          "ci95": null,
+          "valid_seeds": 0,
+          "positive": null,
+          "negative": null,
+          "zero": null
+        }
+      }
+    }
+  ]
+}

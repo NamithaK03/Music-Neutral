@@ -1,0 +1,9 @@
+{
+  "started_utc": "2026-11-14T17:09:44.300254+00:00",
+  "protocol_sha256": "d0591108abd7726732fd147a185bbf0eb8864c9350499079070c8d7d341f37e4",
+  "source_sha256": "aaff2054d1111872c658f20c238aa0747d1da3343a1671fe550b7b779235c2bc",
+  "data_sha256": "6aadec05a271c508eb03e3fbe502e51d29cc36937e091fb6c30658e7a31dc641",
+  "meld_predictions_sha256": "1c238025154d0aa37b6108c3cf66c2a2fad9f461c5627024e1fb9943ff5e4aaa",
+  "numpy": "1.26.4",
+  "pandas": "2.3.0"
+}

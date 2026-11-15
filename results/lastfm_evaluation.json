@@ -1,0 +1,308 @@
+{
+  "aggregate_metrics_macro_averaged_by_user": {
+    "item_item": {
+      "catalog_coverage_at_10": {
+        "mean": 0.1691680137114136,
+        "std": 0.0014521439010070178
+      },
+      "map_at_10": {
+        "mean": 0.12288642683044529,
+        "std": 0.001800652471727189
+      },
+      "ndcg_at_10": {
+        "mean": 0.23082508598923074,
+        "std": 0.0025165129145654727
+      },
+      "precision_at_10": {
+        "mean": 0.17607884922749067,
+        "std": 0.0008201813701833025
+      },
+      "recall_at_10": {
+        "mean": 0.19627825557500572,
+        "std": 0.00158718521765781
+      }
+    },
+    "popularity": {
+      "catalog_coverage_at_10": {
+        "mean": 0.001610975308680642,
+        "std": 8.361317446617127e-05
+      },
+      "map_at_10": {
+        "mean": 0.029249971391899367,
+        "std": 0.0038230711390577756
+      },
+      "ndcg_at_10": {
+        "mean": 0.06958300302547647,
+        "std": 0.005692949060483538
+      },
+      "precision_at_10": {
+        "mean": 0.06008524240809804,
+        "std": 0.003989410724879256
+      },
+      "recall_at_10": {
+        "mean": 0.0655868026486034,
+        "std": 0.004477636549462337
+      }
+    },
+    "tag_content": {
+      "catalog_coverage_at_10": {
+        "mean": 0.1294638524723873,
+        "std": 0.0019909702584263445
+      },
+      "map_at_10": {
+        "mean": 0.021654563174941438,
+        "std": 0.0011778028849517537
+      },
+      "ndcg_at_10": {
+        "mean": 0.055505406894732136,
+        "std": 0.001969000849420718
+      },
+      "precision_at_10": {
+        "mean": 0.049163558870538096,
+        "std": 0.0008316938536138772
+      },
+      "recall_at_10": {
+        "mean": 0.056504638438575575,
+        "std": 0.0012373851268094713
+      }
+    }
+  },
+  "dataset": "HetRec 2011 Last.fm 2K",
+  "evidence_type": "observational_offline_artist_ranking",
+  "license": "non-commercial use only, as stated in the dataset readme",
+  "per_seed_metrics": [
+    {
+      "counts": {
+        "candidate_artists": 15343,
+        "tag_vocabulary_size": 6906,
+        "test_interactions": 18562,
+        "test_interactions_in_candidate_catalog": 16159,
+        "test_interactions_outside_candidate_catalog": 2403,
+        "training_interactions": 74239,
+        "training_tag_assignments": 58610,
+        "users_evaluated": 1877,
+        "users_excluded_below_minimum": 15,
+        "users_in_source": 1892
+      },
+      "metrics_macro_averaged_by_user": {
+        "item_item": {
+          "catalog_coverage_at_10": 0.1675682721762367,
+          "map_at_10": 0.12391920273703513,
+          "ndcg_at_10": 0.23291595977705842,
+          "precision_at_10": 0.1771976558337773,
+          "recall_at_10": 0.1984010706040541
+        },
+        "popularity": {
+          "catalog_coverage_at_10": 0.0015642312455191292,
+          "map_at_10": 0.029844110768283718,
+          "ndcg_at_10": 0.07162303602009627,
+          "precision_at_10": 0.06393180607352157,
+          "recall_at_10": 0.07019729220048879
+        },
+        "tag_content": {
+          "catalog_coverage_at_10": 0.12631167307566968,
+          "map_at_10": 0.022511236104181407,
+          "ndcg_at_10": 0.056983942756492344,
+          "precision_at_10": 0.04992008524240809,
+          "recall_at_10": 0.057244124785414074
+        }
+      },
+      "seed": 42
+    },
+    {
+      "counts": {
+        "candidate_artists": 15419,
+        "tag_vocabulary_size": 6906,
+        "test_interactions": 18562,
+        "test_interactions_in_candidate_catalog": 16237,
+        "test_interactions_outside_candidate_catalog": 2325,
+        "training_interactions": 74239,
+        "training_tag_assignments": 58693,
+        "users_evaluated": 1877,
+        "users_excluded_below_minimum": 15,
+        "users_in_source": 1892
+      },
+      "metrics_macro_averaged_by_user": {
+        "item_item": {
+          "catalog_coverage_at_10": 0.16888254750632337,
+          "map_at_10": 0.12182518801143062,
+          "ndcg_at_10": 0.228906097250537,
+          "precision_at_10": 0.17559936068193926,
+          "recall_at_10": 0.1961201173774429
+        },
+        "popularity": {
+          "catalog_coverage_at_10": 0.0016862312731046112,
+          "map_at_10": 0.03538012783005426,
+          "ndcg_at_10": 0.0781259999135134,
+          "precision_at_10": 0.06446457112413426,
+          "recall_at_10": 0.07015183803942462
+        },
+        "tag_content": {
+          "catalog_coverage_at_10": 0.1295803878331928,
+          "map_at_10": 0.02121078357939991,
+          "ndcg_at_10": 0.054851193004542796,
+          "precision_at_10": 0.049014384656366546,
+          "recall_at_10": 0.0567394778902504
+        }
+      },
+      "seed": 43
+    },
+    {
+      "counts": {
+        "candidate_artists": 15401,
+        "tag_vocabulary_size": 6991,
+        "test_interactions": 18562,
+        "test_interactions_in_candidate_catalog": 16222,
+        "test_interactions_outside_candidate_catalog": 2340,
+        "training_interactions": 74239,
+        "training_tag_assignments": 59019,
+        "users_evaluated": 1877,
+        "users_excluded_below_minimum": 15,
+        "users_in_source": 1892
+      },
+      "metrics_macro_averaged_by_user": {
+        "item_item": {
+          "catalog_coverage_at_10": 0.16972923836114537,
+          "map_at_10": 0.12532999678985232,
+          "ndcg_at_10": 0.2337877900650101,
+          "precision_at_10": 0.17666489078316464,
+          "recall_at_10": 0.19716006629965074
+        },
+        "popularity": {
+          "catalog_coverage_at_10": 0.0014934095188624116,
+          "map_at_10": 0.027776762399942118,
+          "ndcg_at_10": 0.06708577431567338,
+          "precision_at_10": 0.05604688332445392,
+          "recall_at_10": 0.06087200108244327
+        },
+        "tag_content": {
+          "catalog_coverage_at_10": 0.12947211220050647,
+          "map_at_10": 0.022806140150766204,
+          "ndcg_at_10": 0.05746019124222344,
+          "precision_at_10": 0.0500799147575919,
+          "recall_at_10": 0.05800162366491615
+        }
+      },
+      "seed": 44
+    },
+    {
+      "counts": {
+        "candidate_artists": 15419,
+        "tag_vocabulary_size": 6787,
+        "test_interactions": 18562,
+        "test_interactions_in_candidate_catalog": 16254,
+        "test_interactions_outside_candidate_catalog": 2308,
+        "training_interactions": 74239,
+        "training_tag_assignments": 58251,
+        "users_evaluated": 1877,
+        "users_excluded_below_minimum": 15,
+        "users_in_source": 1892
+      },
+      "metrics_macro_averaged_by_user": {
+        "item_item": {
+          "catalog_coverage_at_10": 0.17134703936701473,
+          "map_at_10": 0.12265076276075655,
+          "ndcg_at_10": 0.23059694005354933,
+          "precision_at_10": 0.1752264251465104,
+          "recall_at_10": 0.19425649677381165
+        },
+        "popularity": {
+          "catalog_coverage_at_10": 0.0016213762241390492,
+          "map_at_10": 0.02511208360196424,
+          "ndcg_at_10": 0.06293550035424188,
+          "precision_at_10": 0.05647309536494406,
+          "recall_at_10": 0.061635630988321456
+        },
+        "tag_content": {
+          "catalog_coverage_at_10": 0.13016408327388287,
+          "map_at_10": 0.021889219484435382,
+          "ndcg_at_10": 0.05572999367026361,
+          "precision_at_10": 0.048694725625998934,
+          "recall_at_10": 0.05560650649888796
+        }
+      },
+      "seed": 45
+    },
+    {
+      "counts": {
+        "candidate_artists": 15388,
+        "tag_vocabulary_size": 6815,
+        "test_interactions": 18562,
+        "test_interactions_in_candidate_catalog": 16200,
+        "test_interactions_outside_candidate_catalog": 2362,
+        "training_interactions": 74239,
+        "training_tag_assignments": 58703,
+        "users_evaluated": 1877,
+        "users_excluded_below_minimum": 15,
+        "users_in_source": 1892
+      },
+      "metrics_macro_averaged_by_user": {
+        "item_item": {
+          "catalog_coverage_at_10": 0.1683129711463478,
+          "map_at_10": 0.12070698385315176,
+          "ndcg_at_10": 0.22791864279999868,
+          "precision_at_10": 0.17570591369206182,
+          "recall_at_10": 0.1954535268200692
+        },
+        "popularity": {
+          "catalog_coverage_at_10": 0.0016896282817780088,
+          "map_at_10": 0.028136772359252507,
+          "ndcg_at_10": 0.06814470452385744,
+          "precision_at_10": 0.05950985615343635,
+          "recall_at_10": 0.06507725093233885
+        },
+        "tag_content": {
+          "catalog_coverage_at_10": 0.13179100597868468,
+          "map_at_10": 0.01985543655592429,
+          "ndcg_at_10": 0.05250171380013846,
+          "precision_at_10": 0.04810868407032499,
+          "recall_at_10": 0.05493145935340927
+        }
+      },
+      "seed": 46
+    }
+  ],
+  "protocol": {
+    "candidate_catalog": "artists with at least one training interaction",
+    "cutoff": 10,
+    "methods": {
+      "item_item": "sum of cosine-normalized artist co-listening similarities from the binary training user-artist matrix",
+      "popularity": "descending log of total training listening counts",
+      "tag_content": "cosine similarity between a log-count-weighted user history profile and L2-normalized artist TF-IDF tag vectors"
+    },
+    "minimum_user_interactions": 5,
+    "out_of_catalog_test_items_count_as_misses": true,
+    "relevance": "binary held-out artist listening relations",
+    "seed": 42,
+    "split": "independent random per-user interaction holdout",
+    "tag_provenance": "artist tags from training users, restricted to user-artist pairs present in the listening training split",
+    "test_fraction": 0.2,
+    "train_fraction": 0.8
+  },
+  "reported_seed": 42,
+  "reported_seed_counts": {
+    "candidate_artists": 15343,
+    "tag_vocabulary_size": 6906,
+    "test_interactions": 18562,
+    "test_interactions_in_candidate_catalog": 16159,
+    "test_interactions_outside_candidate_catalog": 2403,
+    "training_interactions": 74239,
+    "training_tag_assignments": 58610,
+    "users_evaluated": 1877,
+    "users_excluded_below_minimum": 15,
+    "users_in_source": 1892
+  },
+  "seed_range": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "source_files": {
+    "user_artists.dat": "001400dc3c7d2667fca6e4ea6dc6acc31a9dd28ad5cd0f74cea988c019934d3b",
+    "user_taggedartists.dat": "d31fe938fcfeed6f0059f37a36b156f63674d073fc2553e5cc9dc1595e365bc7"
+  },
+  "uncertainty_note": "Mean and sample standard deviation describe variation across random interaction splits, not uncertainty over independent users or causal effects.",
+  "warning": "Randomly held-out listening events are not randomized exposures. The dataset has no mood labels or exposure propensities; these metrics do not establish emotion-aware or causal listener benefit."
+}

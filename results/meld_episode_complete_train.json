@@ -1,0 +1,22 @@
+{
+  "dataset": "MELD",
+  "episodes": {
+    "dev_episode_count": 82,
+    "official_test_episode_count": 143,
+    "selected_test_episode_count": 1,
+    "selected_test_episode_ids": [
+      "2_18"
+    ],
+    "train_episode_count": 188
+  },
+  "evidence_type": "episode_disjoint_audit",
+  "metrics": null,
+  "metrics_status": "omitted: fewer than 10 independent test episodes; this subset is too small for a meaningful episode-disjoint performance estimate",
+  "minimum_independent_episodes_for_metrics": 10,
+  "sample_counts": {
+    "all_seven_class": 1,
+    "mapped_four_class": 1,
+    "official_test_total": 2610
+  },
+  "subset_rule": "official test episodes absent from both official train and dev episode sets"
+}

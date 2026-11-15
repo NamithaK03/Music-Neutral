@@ -1,0 +1,344 @@
+{
+  "audio_feature_file_sha256": "0cda206983988ab61de5b30ec32b8ac652e133f84cda4d3d8105a2db8fea363e",
+  "calibration": {
+    "fit_split": "dev",
+    "grid": {
+      "max": 4.0,
+      "min": 0.25,
+      "points": 201
+    },
+    "method": "scalar temperature scaling over a fixed 201-value geometric grid",
+    "temperatures": {
+      "speech": {
+        "temperature": 4.0,
+        "validation_nll_after_scaling": 1.5366417018357248
+      },
+      "text": {
+        "temperature": 0.8350879194283694,
+        "validation_nll_after_scaling": 1.1482559926542104
+      }
+    }
+  },
+  "dataset": "MELD",
+  "dataset_source": "https://github.com/declare-lab/MELD",
+  "dataset_source_revision": "e8cedf27b5d2877e198332c957127e16eb214afe",
+  "evidence_type": "measured_on_public_meld_labels_and_publisher_audio_features",
+  "feature_archive_source": "https://web.eecs.umich.edu/~mihalcea/downloads/MELD.Features.Models.tar.gz",
+  "fusion": {
+    "fixed_paper_rule": {
+      "asr_confidence_available": false,
+      "fallback_threshold": 0.6,
+      "speech_primary_weight": 0.7,
+      "text_primary_weight": 0.7
+    },
+    "test_metrics_at_validation_selected_threshold": {
+      "accuracy": 0.5382180009045681,
+      "conflict_accuracy": 0.49638395792241946,
+      "conflict_count": 1521,
+      "ece_trust_15": 0.17267068973622562,
+      "fallback_rate": 0.6096788783355948,
+      "macro_f1": 0.3434661263027891
+    },
+    "validation_selected_fallback_threshold": 0.4
+  },
+  "label_mapping": {
+    "anger": "angry",
+    "excluded_source_labels": [
+      "disgust",
+      "fear",
+      "surprise"
+    ],
+    "joy": "happy",
+    "neutral": "neutral",
+    "sadness": "sad"
+  },
+  "limitations": [
+    "This is conversational emotion recognition, not music-track or listener-mood recognition.",
+    "Only joy, sadness, anger, and neutral are included; disgust, fear, and surprise are excluded.",
+    "The official splits share source TV episodes, so episode-level leakage may inflate held-out scores.",
+    "The publisher-supplied audio vectors use SVM-based feature selection; its exact fit-split provenance is not documented in the release.",
+    "The classifiers are new baselines trained on MELD train; they do not reproduce the original manuscript's model results.",
+    "The study does not evaluate music recommendation or listener outcomes."
+  ],
+  "metrics": {
+    "dev": {
+      "fallback_threshold_sensitivity": {
+        "0.4": {
+          "accuracy": 0.49944258639910816,
+          "conflict_accuracy": 0.4330434782608696,
+          "conflict_count": 575,
+          "ece_trust_15": 0.10207331039675539,
+          "fallback_rate": 0.5183946488294314,
+          "macro_f1": 0.3325357585186226
+        },
+        "0.5": {
+          "accuracy": 0.5228539576365663,
+          "conflict_accuracy": 0.46956521739130436,
+          "conflict_count": 575,
+          "ece_trust_15": 0.12548468163421359,
+          "fallback_rate": 0.8461538461538461,
+          "macro_f1": 0.24708539242255168
+        },
+        "0.6": {
+          "accuracy": 0.5317725752508361,
+          "conflict_accuracy": 0.48695652173913045,
+          "conflict_count": 575,
+          "ece_trust_15": 0.13217364484491595,
+          "fallback_rate": 0.9732441471571907,
+          "macro_f1": 0.20608094531944346
+        },
+        "0.7": {
+          "accuracy": 0.5239687848383501,
+          "conflict_accuracy": 0.48695652173913045,
+          "conflict_count": 575,
+          "ece_trust_15": 0.13424153233728034,
+          "fallback_rate": 1.0,
+          "macro_f1": 0.17190929041697148
+        },
+        "0.8": {
+          "accuracy": 0.5239687848383501,
+          "conflict_accuracy": 0.48695652173913045,
+          "conflict_count": 575,
+          "ece_trust_15": 0.13424153233728034,
+          "fallback_rate": 1.0,
+          "macro_f1": 0.17190929041697148
+        }
+      },
+      "fusion_and_conflicts": {
+        "conflict_subset": {
+          "count": 575,
+          "speech_accuracy": 0.2782608695652174,
+          "text_accuracy": 0.41739130434782606
+        },
+        "fusion": {
+          "confidence_aware": {
+            "accuracy": 0.4492753623188406,
+            "conflict_accuracy": 0.35130434782608694,
+            "ece_15": 0.06081257830077837,
+            "macro_f1": 0.369740986244545
+          },
+          "confidence_aware_fallback": {
+            "accuracy": 0.5317725752508361,
+            "conflict_accuracy": 0.48695652173913045,
+            "ece_15": 0.13217364484491595,
+            "macro_f1": 0.20608094531944346
+          },
+          "meta": {
+            "conflict_sample_count": 575
+          },
+          "naive": {
+            "accuracy": 0.48272017837235226,
+            "conflict_accuracy": 0.40347826086956523,
+            "ece_15": 0.04036705653537013,
+            "macro_f1": 0.39354778353962017
+          }
+        }
+      },
+      "sample_count": 897,
+      "speech": {
+        "raw": {
+          "accuracy": 0.40245261984392416,
+          "ece_15": 0.4630869871755193,
+          "macro_f1": 0.30510895915218494,
+          "nll": 4.101653396581121
+        },
+        "temperature_scaled": {
+          "accuracy": 0.40245261984392416,
+          "ece_15": 0.19566306388326216,
+          "macro_f1": 0.30510895915218494,
+          "nll": 1.5366417018357248
+        }
+      },
+      "text": {
+        "raw": {
+          "accuracy": 0.4916387959866221,
+          "ece_15": 0.043245181805468484,
+          "macro_f1": 0.4321294467663924,
+          "nll": 1.153010332815573
+        },
+        "temperature_scaled": {
+          "accuracy": 0.4916387959866221,
+          "ece_15": 0.04342468278289189,
+          "macro_f1": 0.4321294467663924,
+          "nll": 1.1482559926542104
+        }
+      }
+    },
+    "test": {
+      "fallback_threshold_sensitivity": {
+        "0.4": {
+          "accuracy": 0.5382180009045681,
+          "conflict_accuracy": 0.49638395792241946,
+          "conflict_count": 1521,
+          "ece_trust_15": 0.17267068973622562,
+          "fallback_rate": 0.6096788783355948,
+          "macro_f1": 0.3434661263027891
+        },
+        "0.5": {
+          "accuracy": 0.5716870194482134,
+          "conflict_accuracy": 0.5470085470085471,
+          "conflict_count": 1521,
+          "ece_trust_15": 0.19933362490374998,
+          "fallback_rate": 0.8919041157847128,
+          "macro_f1": 0.27595713166078334
+        },
+        "0.6": {
+          "accuracy": 0.5739484396200815,
+          "conflict_accuracy": 0.5535831689677844,
+          "conflict_count": 1521,
+          "ece_trust_15": 0.1988813408693764,
+          "fallback_rate": 0.9755766621438263,
+          "macro_f1": 0.22241894512283522
+        },
+        "0.7": {
+          "accuracy": 0.5680687471732248,
+          "conflict_accuracy": 0.5535831689677844,
+          "conflict_count": 1521,
+          "ece_trust_15": 0.20476103331623305,
+          "fallback_rate": 1.0,
+          "macro_f1": 0.181136429189501
+        },
+        "0.8": {
+          "accuracy": 0.5680687471732248,
+          "conflict_accuracy": 0.5535831689677844,
+          "conflict_count": 1521,
+          "ece_trust_15": 0.20476103331623305,
+          "fallback_rate": 1.0,
+          "macro_f1": 0.181136429189501
+        }
+      },
+      "fusion_and_conflicts": {
+        "conflict_subset": {
+          "count": 1521,
+          "speech_accuracy": 0.24260355029585798,
+          "text_accuracy": 0.45627876397107164
+        },
+        "fusion": {
+          "confidence_aware": {
+            "accuracy": 0.4423337856173677,
+            "conflict_accuracy": 0.37343852728468113,
+            "ece_15": 0.0767864744490253,
+            "macro_f1": 0.3827122196896271
+          },
+          "confidence_aware_fallback": {
+            "accuracy": 0.5739484396200815,
+            "conflict_accuracy": 0.5535831689677844,
+            "ece_15": 0.1988813408693764,
+            "macro_f1": 0.22241894512283522
+          },
+          "meta": {
+            "conflict_sample_count": 1521
+          },
+          "naive": {
+            "accuracy": 0.46720940750791495,
+            "conflict_accuracy": 0.4095989480604865,
+            "ece_15": 0.032501277367253285,
+            "macro_f1": 0.3889428636459491
+          }
+        }
+      },
+      "sample_count": 2211,
+      "speech": {
+        "raw": {
+          "accuracy": 0.352329262777024,
+          "ece_15": 0.48534221473543315,
+          "macro_f1": 0.2816598561488099,
+          "nll": 3.7714817382524912
+        },
+        "temperature_scaled": {
+          "accuracy": 0.352329262777024,
+          "ece_15": 0.2012569689349721,
+          "macro_f1": 0.2816598561488099,
+          "nll": 1.523169394319703
+        }
+      },
+      "text": {
+        "raw": {
+          "accuracy": 0.4993215739484396,
+          "ece_15": 0.05639004897974281,
+          "macro_f1": 0.43087124884217,
+          "nll": 1.1630626553115098
+        },
+        "temperature_scaled": {
+          "accuracy": 0.4993215739484396,
+          "ece_15": 0.03850453133078478,
+          "macro_f1": 0.43087124884217,
+          "nll": 1.1596911031708699
+        }
+      }
+    }
+  },
+  "models": {
+    "classifier": {
+      "library": "scikit-learn",
+      "logistic_regression": {
+        "C": 1.0,
+        "class_weight": "balanced",
+        "max_iter": 1000,
+        "random_state": 42,
+        "solver": "lbfgs"
+      },
+      "version": "1.5.2"
+    },
+    "speech": {
+      "algorithm": "standardized publisher-supplied openSMILE/SVM-selected features + multinomial logistic regression",
+      "feature_dimensions": 1611,
+      "scaler_fitted_on": "train split only"
+    },
+    "text": {
+      "algorithm": "TF-IDF word unigram/bigram + multinomial logistic regression",
+      "vectorizer": {
+        "fitted_on": "train split only",
+        "max_features": 50000,
+        "min_df": 2,
+        "sublinear_tf": true
+      }
+    }
+  },
+  "runtime": {
+    "numpy": "1.26.4",
+    "python": "3.10.10"
+  },
+  "splits": {
+    "counts": {
+      "dev": 897,
+      "test": 2211,
+      "train": 8245
+    },
+    "method": "official MELD train/dev/test dialogue splits",
+    "source_emotion_counts": {
+      "dev": {
+        "anger": 153,
+        "disgust": 22,
+        "fear": 40,
+        "joy": 163,
+        "neutral": 470,
+        "sadness": 111,
+        "surprise": 150
+      },
+      "test": {
+        "anger": 345,
+        "disgust": 68,
+        "fear": 50,
+        "joy": 402,
+        "neutral": 1256,
+        "sadness": 208,
+        "surprise": 281
+      },
+      "train": {
+        "anger": 1109,
+        "disgust": 271,
+        "fear": 268,
+        "joy": 1743,
+        "neutral": 4710,
+        "sadness": 683,
+        "surprise": 1205
+      }
+    },
+    "source_episode_overlap": {
+      "dev_test": 66,
+      "train_dev": 81,
+      "train_test": 141
+    }
+  }
+}

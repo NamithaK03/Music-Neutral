@@ -1,0 +1,115 @@
+{
+  "evidence_type": "new_synthetic_simulation",
+  "interactions_per_seed": 300,
+  "seed_count": 5,
+  "seeds": [
+    142,
+    143,
+    144,
+    145,
+    146
+  ],
+  "variants": {
+    "hybrid_linucb": {
+      "catalog_coverage": {
+        "mean": 0.9600000000000001,
+        "std": 0.005590169943749454
+      },
+      "mean_reward": {
+        "mean": 0.051000000000000004,
+        "std": 0.1029266189519936
+      },
+      "ndcg_at_10": {
+        "mean": 0.43898727193409304,
+        "std": 0.1322275402029267
+      },
+      "runs": [
+        {
+          "catalog_coverage": 0.95625,
+          "mean_reward": -0.03833333333333333,
+          "ndcg_at_10": 0.2819652616285918,
+          "skip_rate": 0.07333333333333333
+        },
+        {
+          "catalog_coverage": 0.96875,
+          "mean_reward": 0.043333333333333335,
+          "ndcg_at_10": 0.49045349631680146,
+          "skip_rate": 0.09
+        },
+        {
+          "catalog_coverage": 0.9625,
+          "mean_reward": 0.22333333333333333,
+          "ndcg_at_10": 0.6344086012618201,
+          "skip_rate": 0.05333333333333334
+        },
+        {
+          "catalog_coverage": 0.95625,
+          "mean_reward": -0.016666666666666666,
+          "ndcg_at_10": 0.3798347660933563,
+          "skip_rate": 0.056666666666666664
+        },
+        {
+          "catalog_coverage": 0.95625,
+          "mean_reward": 0.043333333333333335,
+          "ndcg_at_10": 0.4082742343698954,
+          "skip_rate": 0.07
+        }
+      ],
+      "skip_rate": {
+        "mean": 0.06866666666666667,
+        "std": 0.014643921757659197
+      }
+    },
+    "hybrid_no_bandit": {
+      "catalog_coverage": {
+        "mean": 0.35,
+        "std": 0.05590169943749474
+      },
+      "mean_reward": {
+        "mean": -0.181,
+        "std": 0.02567424130654433
+      },
+      "ndcg_at_10": {
+        "mean": 0.5848881593099455,
+        "std": 0.10240669488148693
+      },
+      "runs": [
+        {
+          "catalog_coverage": 0.375,
+          "mean_reward": -0.19,
+          "ndcg_at_10": 0.5729753951931413,
+          "skip_rate": 0.23
+        },
+        {
+          "catalog_coverage": 0.3125,
+          "mean_reward": -0.145,
+          "ndcg_at_10": 0.6259158350308043,
+          "skip_rate": 0.27666666666666667
+        },
+        {
+          "catalog_coverage": 0.4375,
+          "mean_reward": -0.21333333333333335,
+          "ndcg_at_10": 0.6392124597820414,
+          "skip_rate": 0.21333333333333335
+        },
+        {
+          "catalog_coverage": 0.3125,
+          "mean_reward": -0.18833333333333332,
+          "ndcg_at_10": 0.6729590764708204,
+          "skip_rate": 0.24333333333333335
+        },
+        {
+          "catalog_coverage": 0.3125,
+          "mean_reward": -0.16833333333333333,
+          "ndcg_at_10": 0.41337803007292045,
+          "skip_rate": 0.21666666666666667
+        }
+      ],
+      "skip_rate": {
+        "mean": 0.23600000000000002,
+        "std": 0.025647178748895123
+      }
+    }
+  },
+  "warning": "Synthetic results from this implementation are not the manuscript's reported results and are not evidence about real listeners."
+}

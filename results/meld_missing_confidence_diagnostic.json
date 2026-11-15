@@ -1,0 +1,17 @@
+{
+  "sample_count": 2211,
+  "scope": "post-hoc diagnostic; not the pre-specified MELD experiment",
+  "threshold": 0.6,
+  "variants": {
+    "fixed_missing_auxiliary_as_zero": {
+      "accuracy": 0.5680687471732248,
+      "fallback_rate": 0.8493894165535957,
+      "macro_f1": 0.181136429189501
+    },
+    "rescaled_primary_confidence_diagnostic": {
+      "accuracy": 0.5852555404794211,
+      "fallback_rate": 0.39800995024875624,
+      "macro_f1": 0.23552744962475328
+    }
+  }
+}
