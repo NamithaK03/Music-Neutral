@@ -24,6 +24,7 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / 'figures'
+OUT.mkdir(exist_ok=True)
 R = lambda name: json.loads((ROOT / 'results' / name).read_text(encoding='utf-8'))
 
 FULL = 394.36 / 72.27                       # text width in inches
@@ -182,13 +183,13 @@ def meld_condition():
         ax.text(0.97, 0.95, 'text-only confidence' if col == 0 else 'rescaled-fusion confidence',
                 transform=ax.transAxes, ha='right', va='top', fontsize=8, style='italic')
         panel(ax, 'ab'[col]); panel(bx, 'cd'[col], y=0.12)
-    axes[0, 0].set_ylabel(r'Proportion of inputs with $c<\tau$')
+    axes[0, 0].set_ylabel(r'Share among inputs with $c<\tau$')
     axes[1, 0].set_ylabel(r'$\Delta$Accuracy (relabel $-$ ungated)')
     h = [Line2D([], [], color=BLUE, marker='o', ls='-'), Line2D([], [], color=RED, marker='^', ls='-'),
          Line2D([], [], color=GREEN, marker='o', ls='-'), Line2D([], [], color=PURPLE, marker='s', ls='--'),
          Line2D([], [], color=K, ls='-'), Line2D([], [], color=K, ls='--')]
     fig.legend(h, [r'$P(\hat{Y}=Y\mid L)$', r'$P(Y=\mathrm{Neutral}\mid L)$', r'$\Delta$Acc, test', r'$\Delta$Acc, development',
-                   'Test ($n$ = 2211)', 'Development ($n$ = 897)'],
+                   'Test ($n$ = 2,211)', 'Development ($n$ = 897)'],
                loc='lower center', ncol=3, bbox_to_anchor=(0.53, -0.01), frameon=False)
     fig.tight_layout(rect=(0, 0.09, 1, 1), h_pad=0.6, w_pad=1.2); save(fig, 'meld_substitution_condition')
 
@@ -243,7 +244,7 @@ def confidence_policies():
                 ax.set_xlabel('Policy')
         lo = min(a.get_ylim()[0] for a in axes[i]); hi = max(a.get_ylim()[1] for a in axes[i])
         for a in axes[i]:
-            a.set_ylim(lo - 0.03 * (hi - lo), hi + 0.12 * (hi - lo))
+            a.set_ylim(lo - 0.03 * (hi - lo), hi + 0.24 * (hi - lo))
         for a in axes[i][1:]:
             a.tick_params(labelleft=False)
     h = [Line2D([], [], color=BLUE, lw=1), Line2D([], [], color=RED, lw=1),

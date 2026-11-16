@@ -21,21 +21,18 @@ experiments/              Study scripts (controlled study v2, MELD and synthetic
                           logged literature search)
 tests/                    Unit tests (28)
 results/                  All saved run-level results (JSON/CSV/NPZ)
-tables/                   LaTeX table rows written by make_paper_tables.py
-figures/                  Vector PDF figures written by make_publication_figures.py
 protocol_archive/         Protocols and sources archived before execution, with
                           SHA-256 manifests and commit timestamps; the Git history of
                           the frozen amendment (commit d53bc1d1) is kept as
                           frozen_amendment_1_git_history.bundle
 literature_search/        Raw database-search responses, screening output and status
-docs/                     Supplementary report with every condition and contrast
 *_PROTOCOL*.md            Study protocols (hashed; do not edit)
 *_RESULTS.md              Readable result reports generated from results/
 VALIDATION_*.md, INTERPRETATION_REVISION_*.md
                           Validation notes and post-result scope corrections
-make_paper_tables.py      Regenerates tables/ from results/
+make_paper_tables.py      Writes LaTeX table rows to tables/ from results/
 make_publication_figures.py
-                          Regenerates figures/ from results/
+                          Writes vector PDF figures to figures/ from results/
 verify_revision_results.py
                           Read-only integrity checks on saved results and archive hashes
 ```
@@ -72,7 +69,7 @@ git -C /tmp/frozen_amendment_1 log
 - that the frozen protocol hashes and archive chronology are intact;
 - that all 80 listening-log runs match the per-user arrays.
 
-## Reproducing tables, figures and analyses from saved results
+## Reproducing analyses, tables and figures from saved results
 
 ```bash
 python experiments/meld_substitution_condition.py      # MELD substitution condition (54 rows)
@@ -82,7 +79,7 @@ python make_publication_figures.py
 python report_controlled_v2.py                         # regenerates CONTROLLED_V2_RESULTS.md and CSVs
 ```
 
-These scripts read only `results/`. The MELD analysis uses `results/meld_checkpoint_predictions.csv`, which holds temperature-scaled four-class probabilities from the released checkpoints.
+These scripts read only `results/`. Tables and figures are not stored in the repository; the two generator scripts create `tables/` and `figures/` when run. The MELD analysis uses `results/meld_checkpoint_predictions.csv`, which holds temperature-scaled four-class probabilities from the released checkpoints.
 
 ## Re-running the experiments
 

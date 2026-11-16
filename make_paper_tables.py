@@ -3,6 +3,7 @@ import ast, csv, json
 from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 T = ROOT / 'tables'
+T.mkdir(exist_ok=True)
 f3 = lambda x: f'{x:.3f}'
 f4 = lambda x: f'{x:.4f}'.replace('-', '$-$')
 ci = lambda c: f'[{f4(c[0])}, {f4(c[1])}]'

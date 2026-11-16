@@ -5,3 +5,6 @@ __pycache__/
 .DS_Store
 *.aux
 *.log
+figures/
+tables/
+supplement_all_conditions.tex
