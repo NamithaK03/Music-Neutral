@@ -31,6 +31,7 @@ literature_search/        Raw database-search responses, screening output and st
 VALIDATION_*.md, INTERPRETATION_REVISION_*.md
                           Validation notes and post-result scope corrections
 make_paper_tables.py      Writes LaTeX table rows to tables/ from results/
+make_supplement.py        Writes the supplementary report (Document S1) to supplement/ from results/
 make_publication_figures.py
                           Writes vector PDF figures to figures/ from results/
 verify_revision_results.py
@@ -76,6 +77,7 @@ python experiments/meld_substitution_condition.py      # MELD substitution condi
 python experiments/synthetic_substitution_condition.py # replay of frozen synthetic inference streams
 python make_paper_tables.py
 python make_publication_figures.py
+python make_supplement.py
 python report_controlled_v2.py                         # regenerates CONTROLLED_V2_RESULTS.md and CSVs
 ```
 
