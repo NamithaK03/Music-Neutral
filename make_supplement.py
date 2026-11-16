@@ -72,7 +72,7 @@ w(r'''\documentclass[10pt,a4paper]{article}
 {\Large\bfseries Supplementary Materials}\\[6pt]
 {\large Neutral Relabeling of Uncertain Emotion Predictions in Music Recommendation}\\[6pt]
 K. Namitha and Harinarayanan U\\[2pt]
-{\small Document S1. Complete results of the controlled study, the MELD substitution analysis and the listening-log study}
+{\small Tables S1--S22: complete results of the controlled study, the MELD substitution analysis and the listening-log study}
 \end{center}
 \vspace{4pt}
 ''')
@@ -97,7 +97,7 @@ w(r'\section{Main Experiment: Condition Means}' + '\n')
 w('Tables S1--S9 give the mean across ten seeds for each of the 96 conditions, with the sample SD in parentheses.\n')
 for key, label, d in METRICS:
     w(r'\begin{longtable}{llll' + 'c' * 4 + '}')
-    w(r'\caption{' + label + r': mean (SD) across ten seeds.}\\')
+    w(r'\caption{' + label + r' for all main-experiment conditions: mean (SD) across ten seeds.}\\')
     w(r'\toprule Noise & Pref.\ SD & Rule & Selector & U & R & A & W \\ \midrule \endfirsthead')
     w(r'\toprule Noise & Pref.\ SD & Rule & Selector & U & R & A & W \\ \midrule \endhead')
     w(r'\bottomrule \endfoot')
@@ -143,7 +143,7 @@ w('Tables S10--S18 list all ten paired contrasts in each of the 12 noise, prefer
   'The prespecified down-weight-minus-relabel contrasts (W$-$R) are those in Table~7 of the main text. Contrasts that are undefined for a metric are omitted.\n')
 for key, label, d in METRICS:
     w(r'\begin{longtable}{lllrlr}')
-    w(r'\caption{' + label + r': paired contrasts (mean, 95\% interval, positive/negative seeds).}\\')
+    w(r'\caption{Paired contrasts in ' + label[0].lower() + label[1:] + r' (main experiment): mean difference, 95\% interval and positive/negative seeds.}\\')
     hdr = r'\toprule Noise & Pref.\ SD & Rule & \multicolumn{1}{l}{Contrast} & Mean [95\% interval] & $+/-$ \\ \midrule'
     w(hdr + r' \endfirsthead')
     w(hdr + r' \endhead')
@@ -178,7 +178,7 @@ w(r'\section{Main Experiment: Threshold Sweep}' + '\n')
 w('The descriptive sweep evaluates relabeling and abstention with the deterministic selector at five thresholds (1,200 runs). '
   r'Table~S19 gives means across ten seeds. The fallback rate under R equals the abstention rate under A, because both apply the same threshold to the same confidence scores.' + '\n')
 w(r'\begin{longtable}{lllcccccc}')
-w(r'\caption{Threshold sweep, deterministic selector: mean across ten seeds. NDCG: graded NDCG@10 under R and A; rate: share of inputs with $c<\tau$; Acc.: emitted-label accuracy under R; Cov.\ acc.: accuracy of predicted labels on covered inputs.}\\')
+w(r'\caption{Threshold sweep with the deterministic selector: mean across ten seeds. NDCG: graded NDCG@10 under R and A; rate: share of inputs with $c<\tau$; Acc.: emitted-label accuracy under R; Cov.\ acc.: accuracy of predicted labels on covered inputs.}\\')
 hdr = r'\toprule Noise & Pref.\ SD & Rule & $\tau$ & NDCG (R) & NDCG (A) & Rate & Acc.\ (R) & Cov.\ acc. \\ \midrule'
 w(hdr + r' \endfirsthead'); w(hdr + r' \endhead'); w(r'\bottomrule \endfoot')
 taus = sorted({r['threshold'] for r in runs['threshold_sweep']})
@@ -203,7 +203,7 @@ w(r'\section{MELD Substitution Condition at All Thresholds}' + '\n')
 w(r'Table~S20 extends Table~4 of the main text to all nine thresholds, both splits and all three inference rules (test $n=2{,}211$; development $n=897$). '
   r'$\pi_L$ is the share of inputs with $c<\tau$; Corr.$|L$ and Neut.$|L$ are the shares of those inputs whose predicted label is correct and whose true label is Neutral. Exploratory analysis.' + '\n')
 w(r'\begin{longtable}{llccccccc}')
-w(r'\caption{Neutral substitution on MELD, four-class subset: all splits, rules and thresholds. $\Delta$Acc and $\Delta$F1: relabel minus ungated.}\\')
+w(r'\caption{Neutral substitution on MELD at all splits, inference rules and thresholds (four-class subset). $\Delta$Acc and $\Delta$F1: relabel minus ungated.}\\')
 hdr = r'\toprule Split & Rule & $\tau$ & $\pi_L$ & Corr.$|L$ & Neut.$|L$ & Acc.\ (U) & $\Delta$Acc & $\Delta$F1 \\ \midrule'
 w(hdr + r' \endfirsthead'); w(hdr + r' \endhead'); w(r'\bottomrule \endfoot')
 order = {'test': 0, 'dev': 1}; rorder = {'text-only': 0, 'rescaled': 1, 'fixed': 2}
@@ -225,7 +225,7 @@ NP = {'downweight': 'down-weight', 'base': 'base', 'ungated': 'ungated', 'relabe
 w(r'\section{Listening-Log Study: All Paired Contrasts}' + '\n')
 w(r'Table~S21 lists all 14 paired contrasts of the listening-log study for the three ranking metrics. Intervals resample the 53 users (10,000 resamples) after averaging over the ten corruption seeds; the seed counts give the number of seeds with a positive or negative difference.' + '\n')
 w(r'\begin{longtable}{llrrr}')
-w(r'\caption{Listening-log paired contrasts: mean difference [95\% user-bootstrap interval] and positive/negative seeds.}\\')
+w(r'\caption{Paired contrasts in the listening-log study: mean difference [95\% user-bootstrap interval] and positive/negative seeds.}\\')
 hdr = r'\toprule Rule & Contrast & NDCG@10 & Recall@10 & RR@10 \\ \midrule'
 w(hdr + r' \endfirsthead'); w(hdr + r' \endhead'); w(r'\bottomrule \endfoot')
 prev = None
@@ -247,7 +247,7 @@ pre = json.load(open(RES / 'controlled_study.json'))
 w(r'\section{Preliminary Experiment: All Conditions}' + '\n')
 w(r'The preliminary experiment applied relabeling at $\tau=0.6$ in all 24 conditions. Table~S22 gives the mean (SD) across ten seeds; Table~9 of the main text shows its rescaled-fusion rows for NDCG@10.' + '\n')
 w(r'\begin{longtable}{lllccccc}')
-w(r'\caption{Preliminary experiment (relabeling at $\tau=0.6$): mean (SD) across ten seeds.}\\')
+w(r'\caption{All conditions of the preliminary experiment (relabeling at $\tau=0.6$): mean (SD) across ten seeds.}\\')
 hdr = r'\toprule Noise SD & Pref.\ SD & Rule & Selector & NDCG@10 & Skip rate & Fallback rate & Label acc. \\ \midrule'
 w(hdr + r' \endfirsthead'); w(hdr + r' \endhead'); w(r'\bottomrule \endfoot')
 srt = sorted(pre['summary'], key=lambda s: (s['noise'], s['preference_sd'], ['fixed', 'rescaled', 'text'].index(s['fusion']), s['bandit']))
